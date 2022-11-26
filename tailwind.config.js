@@ -19,6 +19,10 @@ module.exports = {
         "mauve-darker": "#3D3446",
         "mauve-darkest": "#2A2A2A",
       },
+      fontFamily: {
+        elianto: ["Elianto", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
+      },
     },
   },
   plugins: [],
