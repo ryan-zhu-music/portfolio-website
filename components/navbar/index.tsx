@@ -16,13 +16,13 @@ export default function Navbar() {
     >
       <div
         className={
-          "absolute h-16 rounded-full gradient-mauve duration-1000 transition-all ease-in-out " +
+          "z-10 absolute h-16 rounded-full gradient-mauve duration-1000 transition-all ease-in-out " +
           (scrollPosition.y > 30 ? "opacity-100 w-5/6" : "opacity-0 w-full")
         }
       />
       <ul
         className={
-          "px-10 flex flex-row justify-between items-center transition-all duration-1000 ease-in-out " +
+          "z-20 px-10 flex flex-row justify-between items-center transition-all duration-1000 ease-in-out " +
           (scrollPosition.y > 30 ? "w-5/6" : "w-full")
         }
       >
@@ -31,7 +31,7 @@ export default function Navbar() {
             <Link
               key={link.name}
               href={link.link}
-              className="text-2xl lg:text-sm xl:text-lg text-white mx-7 drop-shadow-md font-elianto tracking-[0.3em] uppercase"
+              className="text-2xl lg:text-sm xl:text-lg text-white mx-7 font-elianto tracking-[0.3em] uppercase"
             >
               {width > 1024 ? link.name : link.icon}
             </Link>
