@@ -2,6 +2,7 @@ import Head from "next/head";
 import Navbar from "../components/navbar";
 import Hero from "../components/hero";
 import About from "../components/about";
+import Music from "../components/music";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <Navbar />
         <Hero />
         <About />
+        <Music />
       </main>
     </>
   );

@@ -1,8 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import { links } from "../../data/socials";
-import useWindowDimensions from "../../utils/useWindowDimensions";
-import useScrollPosition from "../../utils/useScrollPosition";
+import useWindowDimensions from "../../hooks/useWindowDimensions";
+import useScrollPosition from "../../hooks/useScrollPosition";
 
 export default function Navbar() {
   const { width }: any = useWindowDimensions();
@@ -27,7 +27,7 @@ export default function Navbar() {
         }
       >
         {links.map((link) => (
-          <li>
+          <li key={link.name}>
             <Link
               key={link.name}
               href={link.link}

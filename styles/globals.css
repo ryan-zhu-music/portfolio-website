@@ -15,7 +15,6 @@
 
 * {
   box-sizing: border-box;
-  overflow-x: hidden;
   padding: 0;
   margin: 0;
 }
@@ -39,6 +38,7 @@ h4,
 h5,
 h6 {
   font-family: "Elianto", sans-serif;
+  overflow-y: hidden;
 }
 
 h1 {
@@ -55,6 +55,10 @@ h2 {
 p {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+}
+
+button:focus {
+  outline: none;
 }
 .radial-gradient {
   background: radial-gradient(
