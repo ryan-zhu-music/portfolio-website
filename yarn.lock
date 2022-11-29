@@ -2,15 +2,6 @@
 # yarn lockfile v1
 
 
-"3d-react-carousal@^5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/3d-react-carousal/-/3d-react-carousal-5.0.0.tgz#357f1ec8e39548d3896051cde695cc6820d3c28c"
-  integrity sha512-VA9QSswNB/qVdURPJdN9ncKXhdXVoxkcfbihLuwJZPaddAoZyMeOVHEcxE6KMtaX9ChFZw3jvJAIewOk6LC4dQ==
-  dependencies:
-    prop-types "^15.7.2"
-    react-fast-compare "^3.2.0"
-    react-swipeable "^6.1.2"
-
 "@babel/code-frame@^7.0.0":
   version "7.18.6"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.18.6.tgz#3b25d38c89600baa2dcc219edfa88a74eb2c427a"
@@ -430,6 +421,60 @@
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.6.tgz#cee20bd55e68a1720bdab363ecf0c821ded4cd45"
   integrity sha512-50/17A98tWUfQ176raKiOGXuYpLyyVMkxxG6oylzL3BPOlA6ADGdK7EYunSa4I064xerltq9TGXs8HmOk5E+vw==
 
+"@react-spring/animated@~9.5.5":
+  version "9.5.5"
+  resolved "https://registry.yarnpkg.com/@react-spring/animated/-/animated-9.5.5.tgz#d3bfd0f62ed13a337463a55d2c93bb23c15bbf3e"
+  integrity sha512-glzViz7syQ3CE6BQOwAyr75cgh0qsihm5lkaf24I0DfU63cMm/3+br299UEYkuaHNmfDfM414uktiPlZCNJbQA==
+  dependencies:
+    "@react-spring/shared" "~9.5.5"
+    "@react-spring/types" "~9.5.5"
+
+"@react-spring/core@~9.5.5":
+  version "9.5.5"
+  resolved "https://registry.yarnpkg.com/@react-spring/core/-/core-9.5.5.tgz#1d8a4c64630ee26b2295361e1eedfd716a85b4ae"
+  integrity sha512-shaJYb3iX18Au6gkk8ahaF0qx0LpS0Yd+ajb4asBaAQf6WPGuEdJsbsNSgei1/O13JyEATsJl20lkjeslJPMYA==
+  dependencies:
+    "@react-spring/animated" "~9.5.5"
+    "@react-spring/rafz" "~9.5.5"
+    "@react-spring/shared" "~9.5.5"
+    "@react-spring/types" "~9.5.5"
+
+"@react-spring/parallax@^9.5.5":
+  version "9.5.5"
+  resolved "https://registry.yarnpkg.com/@react-spring/parallax/-/parallax-9.5.5.tgz#a2e02877867931ba0e30af4d7c97d096634f8436"
+  integrity sha512-Mx5DxIVkASoK+lDe/OX88Tyd4ibgwvl2Gov540kCdJwYRvOdsxinnTa1R7d4XyNv6kkKce1bstOKHdyWTCKu7g==
+  dependencies:
+    "@react-spring/shared" "~9.5.5"
+    "@react-spring/web" "~9.5.5"
+
+"@react-spring/rafz@~9.5.5":
+  version "9.5.5"
+  resolved "https://registry.yarnpkg.com/@react-spring/rafz/-/rafz-9.5.5.tgz#62a49c5e294104b79db2a8afdf4f3a274c7f44ca"
+  integrity sha512-F/CLwB0d10jL6My5vgzRQxCNY2RNyDJZedRBK7FsngdCmzoq3V4OqqNc/9voJb9qRC2wd55oGXUeXv2eIaFmsw==
+
+"@react-spring/shared@~9.5.5":
+  version "9.5.5"
+  resolved "https://registry.yarnpkg.com/@react-spring/shared/-/shared-9.5.5.tgz#9be0b391d546e3e184a24ecbaf40acbaeab7fc73"
+  integrity sha512-YwW70Pa/YXPOwTutExHZmMQSHcNC90kJOnNR4G4mCDNV99hE98jWkIPDOsgqbYx3amIglcFPiYKMaQuGdr8dyQ==
+  dependencies:
+    "@react-spring/rafz" "~9.5.5"
+    "@react-spring/types" "~9.5.5"
+
+"@react-spring/types@~9.5.5":
+  version "9.5.5"
+  resolved "https://registry.yarnpkg.com/@react-spring/types/-/types-9.5.5.tgz#c8e94f1b9232ca7cb9d860ea67762ec401b1de14"
+  integrity sha512-7I/qY8H7Enwasxr4jU6WmtNK+RZ4Z/XvSlDvjXFVe7ii1x0MoSlkw6pD7xuac8qrHQRm9BTcbZNyeeKApYsvCg==
+
+"@react-spring/web@~9.5.5":
+  version "9.5.5"
+  resolved "https://registry.yarnpkg.com/@react-spring/web/-/web-9.5.5.tgz#d416abc591aaed930401f0c98a991a8c5b90c382"
+  integrity sha512-+moT8aDX/ho/XAhU+HRY9m0LVV9y9CK6NjSRaI+30Re150pB3iEip6QfnF4qnhSCQ5drpMF0XRXHgOTY/xbtFw==
+  dependencies:
+    "@react-spring/animated" "~9.5.5"
+    "@react-spring/core" "~9.5.5"
+    "@react-spring/shared" "~9.5.5"
+    "@react-spring/types" "~9.5.5"
+
 "@rushstack/eslint-patch@^1.1.3":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.2.0.tgz#8be36a1f66f3265389e90b5f9c9962146758f728"
@@ -712,6 +757,11 @@ balanced-match@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.2.tgz#e83e3a7e3f300b34cb9d87f615fa0cbf357690ee"
   integrity sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==
+
+bezier-easing@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/bezier-easing/-/bezier-easing-2.1.0.tgz#c04dfe8b926d6ecaca1813d69ff179b7c2025d86"
+  integrity sha512-gbIqZ/eslnUFC1tjEvtz0sgx+xTK20wDnYMIA27VA04R7w6xxXQPZDbibjA9DTWZRA2CXtwHykkVzlCaAJAZig==
 
 binary-extensions@^2.0.0:
   version "2.2.0"
@@ -2009,6 +2059,13 @@ p-locate@^5.0.0:
   dependencies:
     p-limit "^3.0.2"
 
+parallax-controller@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/parallax-controller/-/parallax-controller-1.5.0.tgz#324859f336566f114b8c08212b8454b6ad17de0f"
+  integrity sha512-X7FKD0bH27hJHdknH/UNEznmw6xjcWz/QA4M6RLlE/gUXfbePKhk+ld/20e58aAfjMqj+Q7RURryISFcDIVmtA==
+  dependencies:
+    bezier-easing "^2.1.0"
+
 parent-module@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/parent-module/-/parent-module-1.0.1.tgz#691d2709e78c79fae3a156622452d00762caaaa2"
@@ -2133,7 +2190,7 @@ prelude-ls@^1.2.1:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
 
-prop-types@^15.6.2, prop-types@^15.7.2, prop-types@^15.8.1:
+prop-types@^15.6.2, prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -2165,11 +2222,6 @@ react-dom@18.2.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
-react-fast-compare@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-3.2.0.tgz#641a9da81b6a6320f270e89724fb45a0b39e43bb"
-  integrity sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA==
-
 react-icons@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-4.6.0.tgz#f83eda179af5d02c047449a20b702c858653d397"
@@ -2185,10 +2237,12 @@ react-is@^18.2.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.2.0.tgz#199431eeaaa2e09f86427efbb4f1473edb47609b"
   integrity sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==
 
-react-swipeable@^6.1.2:
-  version "6.2.2"
-  resolved "https://registry.yarnpkg.com/react-swipeable/-/react-swipeable-6.2.2.tgz#52ba570f3a7a90db7093094ec476f3d151f727d1"
-  integrity sha512-Oz7nSFrssvq2yvy05aNL3F+yBUqSvLsK6x1mu+rQFOpMdQVnt4izKt1vyjvvTb70q6GQOaSpaB6qniROW2MAzQ==
+react-scroll-parallax@^3.3.2:
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/react-scroll-parallax/-/react-scroll-parallax-3.3.2.tgz#e6acae262c22d44244739fc9486f11a43f199fff"
+  integrity sha512-mLgcLqyFhrIp31gLjz11yYmWEwS8NJoOoCZ15ZFXPOcpPQK8R+jZfeuO59Trm9bReok/iDUyx3ZyCCZjkxj37Q==
+  dependencies:
+    parallax-controller "^1.5.0"
 
 react-transition-group@^4.4.5:
   version "4.4.5"

@@ -65,7 +65,7 @@ export default function Player({ tracks }) {
 
   return (
     <div className="w-full">
-      <h3 className="text-base md:text-lg lg:text-xl tracking-[0.3em] uppercase drop-shadow-lg text-white text-center md:text-start mt-2">
+      <h3 className="text-sm md:text-base lg:text-lg tracking-[0.3em] uppercase drop-shadow-lg text-white text-center md:text-start mt-2 mb-1">
         {title}
       </h3>
       <div className={"flex flex-row justify-between items-center"}>
@@ -76,7 +76,7 @@ export default function Player({ tracks }) {
             changeTrack(-1);
           }}
         >
-          <FaBackward className="text-white text-3xl" />
+          <FaBackward className="text-white text-2xl hover:drop-shadow-md hover:scale-[110%] duration-500 " />
         </button>
         {isPlaying ? (
           <button
@@ -85,7 +85,7 @@ export default function Player({ tracks }) {
             aria-label="Pause"
             className="mx-4"
           >
-            <FaPause className="text-white text-2xl" />
+            <FaPause className="text-white text-xl hover:drop-shadow-md hover:scale-[110%] duration-500 " />
           </button>
         ) : (
           <button
@@ -94,7 +94,7 @@ export default function Player({ tracks }) {
             aria-label="Play"
             className="mx-4"
           >
-            <FaPlay className="text-white text-2xl" />
+            <FaPlay className="text-white text-xl hover:drop-shadow-md hover:scale-[110%] duration-500 " />
           </button>
         )}
         <Slider
@@ -108,7 +108,8 @@ export default function Player({ tracks }) {
           sx={{
             color: "rgba(183,170,196,0.7)",
             width: "full",
-            height: 40,
+            height: 25,
+            paddingY: 0,
             "& .MuiSlider-thumb": {
               width: 0,
               height: 0,
@@ -132,7 +133,7 @@ export default function Player({ tracks }) {
           }}
         />
         <button type="button" aria-label="Next" onClick={() => changeTrack(1)}>
-          <FaForward className="text-white text-3xl ml-5" />
+          <FaForward className="text-white text-2xl ml-5 hover:drop-shadow-md hover:scale-[110%] duration-500 " />
         </button>
       </div>
     </div>
