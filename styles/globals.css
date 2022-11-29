@@ -71,7 +71,7 @@ button:focus {
 .gradient-mauve {
   background: linear-gradient(
     90.7deg,
-    rgba(106, 89, 116, 0.9) 15.33%,
-    rgba(46, 32, 54, 0.9) 81.34%
+    rgba(106, 89, 116, 0.7) 15.33%,
+    rgba(46, 32, 54, 0.7) 81.34%
   );
 }
