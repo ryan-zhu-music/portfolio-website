@@ -7,72 +7,75 @@ export default function Player({ tracks }) {
   const [trackIndex, setTrackIndex] = useState(0);
   const [trackProgress, setTrackProgress] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
-
-  const { title, src } = tracks[trackIndex];
-
   const [audio, setAudio] = useState({ readyState: 0 });
   const [duration, setDuration] = useState(0);
 
-  let timer;
+  const { title, src } = tracks[trackIndex];
+
+  const [timer, setTimer] = useState(null);
 
   useEffect(() => {
+    //new track
+    console.log("updating track");
     setAudio(new Audio(src));
+    setTrackProgress(0);
+    setDuration(0);
   }, [trackIndex]);
 
   useEffect(() => {
+    //track is ready
     if (audio && audio.readyState > 0) {
       setDuration(audio.duration);
+      setTimer(
+        setInterval(() => {
+          setTrackProgress(audio.currentTime);
+        }, [500])
+      );
+    } else {
+      clearInterval(timer);
+      setTimer(null);
     }
   }, [audio.readyState]);
 
   const handlePlay = (play) => {
+    //play/pause
     setIsPlaying(play);
     if (audio && audio.readyState > 0) {
       if (play) {
         audio.play();
-        timer = setInterval(() => {
-          setTrackProgress(audio.currentTime);
-        }, [500]);
       } else {
         audio.pause();
-        clearInterval(timer);
       }
     }
   };
 
   const handleScrub = (value) => {
+    //user changes slider
     if (audio && audio.readyState > 0) {
       audio.currentTime = value;
-      setTrackProgress(value);
     }
   };
-
-  const toPrevTrack = () => {
-    if (trackIndex - 1 < 0) {
-      setTrackIndex(tracks.length - 1);
-    } else {
-      setTrackIndex(trackIndex - 1);
-    }
+  const changeTrack = (direction) => {
+    //next/previous track
+    handlePlay(false);
     setTrackProgress(0);
+    setAudio({ readyState: 0, currentTime: 0 });
+    setTrackIndex((tracks.length + trackIndex + direction) % tracks.length);
   };
 
-  const toNextTrack = () => {
-    if (trackIndex < tracks.length - 1) {
-      setTrackIndex(trackIndex + 1);
-    } else {
-      setTrackIndex(0);
-    }
-    setTrackProgress(0);
-  };
-
-  const { width } = useWindowDimensions();
   return (
     <div className="w-full">
       <h3 className="text-base md:text-lg lg:text-xl tracking-[0.3em] uppercase drop-shadow-lg text-white text-center md:text-start mt-2">
         {title}
       </h3>
       <div className={"flex flex-row justify-between items-center"}>
-        <button type="button" aria-label="Previous" onClick={toPrevTrack}>
+        <button
+          type="button"
+          aria-label="Previous"
+          onClick={() => {
+            changeTrack(-1);
+          }}
+        >
           <FaBackward className="text-white text-3xl" />
         </button>
         {isPlaying ? (
@@ -96,7 +99,7 @@ export default function Player({ tracks }) {
         )}
         <Slider
           aria-label="Track Progress"
-          value={Number(trackProgress)}
+          value={trackProgress}
           min={0}
           max={duration}
           onChange={(e, value) => {
@@ -128,7 +131,7 @@ export default function Player({ tracks }) {
             },
           }}
         />
-        <button type="button" aria-label="Next" onClick={toNextTrack}>
+        <button type="button" aria-label="Next" onClick={() => changeTrack(1)}>
           <FaForward className="text-white text-3xl ml-5" />
         </button>
       </div>
