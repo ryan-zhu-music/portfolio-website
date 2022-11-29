@@ -378,7 +378,7 @@ export const ensemble = [
         src: "/assets/audio/ensemble/Macbeth V.mp3",
       },
     ],
-    image: "/assets/img/Macbeth.png",
+    image: "/assets/img/MacbethSuite.png",
   },
   {
     title: "Suite of the Elements",
