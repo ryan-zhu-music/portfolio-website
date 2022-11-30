@@ -4,7 +4,7 @@ export default function Project({ project, setOpen, setProject }: any) {
   return (
     <button
       className={
-        "h-full gradient-mauve shadow-xl mx-2 px-10 flex flex-col justify-center items-start pt-6 hover:scale-105 duration-500 ease-in-out " +
+        "h-full gradient-mauve mx-2 px-10 flex flex-col justify-center items-start pt-6 hover:scale-[102%] duration-500 ease-in-out " +
         project.image
       }
       onClick={() => {
