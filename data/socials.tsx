@@ -8,6 +8,8 @@ import {
   FaCompactDisc,
   FaFolderOpen,
   FaEnvelope,
+  FaSpotify,
+  FaYoutube,
 } from "react-icons/fa";
 
 export const socials = [
@@ -30,6 +32,24 @@ export const socials = [
     name: "Discord",
     url: "https://discordapp.com/users/401127703698210816",
     icon: <FaDiscord />,
+  },
+];
+
+export const music_socials = [
+  {
+    name: "Spotify",
+    url: "https://open.spotify.com/artist/6QRbpevuWFtC1Eoy58bGVW?si=CjbZ5q2JRG2TlVOXr8iiDA",
+    icon: <FaSpotify />,
+  },
+  {
+    name: "Instagram",
+    url: "https://www.instagram.com/ryan.zhu.music/",
+    icon: <FaInstagram />,
+  },
+  {
+    name: "YouTube",
+    url: "https://www.youtube.com/channel/UCHIpJEaiDBQ8Jd07tZj0D7A",
+    icon: <FaYoutube />,
   },
 ];
 

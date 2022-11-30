@@ -18,7 +18,7 @@ export default function Hero() {
             href={social.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-2xl md:text-3xl lg:text-4xl text-mauve mx-5 drop-shadow-md"
+            className="text-2xl md:text-3xl lg:text-4xl text-mauve mx-5 hover:drop-shadow-md hover:scale-105 duration-500 hover:text-white ease-in-out"
           >
             {social.icon}
           </a>

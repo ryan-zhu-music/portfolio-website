@@ -135,7 +135,7 @@ export const soundtracks = [
       },
       {
         title: "Rebirth",
-        src: "/assets/audio/soundtracks/Rebirth.mp3",
+        src: "/assets/audio/soundtracks/RebirthPrelude.mp3",
       },
       {
         title: "Arcane Abyss",
@@ -146,7 +146,7 @@ export const soundtracks = [
   },
   {
     title: "Little Fantasy Suite",
-    subtitle: "A programmitic suite inspired by VGM.",
+    subtitle: "A programmatic suite inspired by VGM.",
     tracks: [
       {
         title: "I - Prelude",
@@ -168,7 +168,7 @@ export const soundtracks = [
 export const piano = [
   {
     title: "The Birthstones",
-    subtitle: "One for each of the twelve birthstones. Modern-style.",
+    subtitle: "One for each of the twelve birthstones.",
     tracks: [
       {
         title: "I - Garnet",
@@ -219,7 +219,7 @@ export const piano = [
   },
   {
     title: "Contemplations",
-    subtitle: "A set of reflective contemporary pieces.",
+    subtitle: "A set of reflective, contemporary piano solos.",
     tracks: [
       {
         title: "I",
@@ -251,8 +251,7 @@ export const piano = [
   },
   {
     title: "Piano Mix",
-    subtitle:
-      "A collection of compositions and arrangements from romantic to expressionist.",
+    subtitle: "Romantic to expressionist compositions and arrangements.",
     tracks: [
       {
         title: "Halcyon Days",
@@ -382,7 +381,7 @@ export const ensemble = [
   },
   {
     title: "Suite of the Elements",
-    subtitle: "An orchestral suite, inspired by the four elements of nature.",
+    subtitle: "Inspired by the four elements of nature.",
     tracks: [
       {
         title: "I - Water",
@@ -405,8 +404,7 @@ export const ensemble = [
   },
   {
     title: "Ensemble Mix",
-    subtitle:
-      "A collection of compositions and arrangements from romantic to modernist.",
+    subtitle: "Romantic to modernist compositions and arrangements.",
     tracks: [
       {
         title: "Evening Airs",

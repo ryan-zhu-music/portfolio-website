@@ -14,7 +14,7 @@ export default function Music() {
         spanning various styles including Classicism, Romanticism,
         Impressionism, and Modernism.
       </p>
-      <div className="w-full flex flex-col items-center justify-center">
+      <div className="w-full grid-cols-1 grid gap-5 px-[5%] mt-10">
         {spotlight.map((playlist, index) => (
           <Playlist key={index} props={playlist} />
         ))}
