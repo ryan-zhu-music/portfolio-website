@@ -99,7 +99,7 @@ export const projects = [
       "My personal website, the one you are viewing right now. Started as a project during a co-op placement at NVision.",
       "Revamped and migrated to Next.js in December 2022.",
     ],
-    image: "/assets/img/projects/personalsite.png",
+    image: "/assets/img/projects/personal-site.png",
     prototype: false,
   },
   {
@@ -110,7 +110,7 @@ export const projects = [
     description: [
       "An API that returns calculated and organized user statistics from their MuseScore account.",
     ],
-    image: "/assets/img/projects/musestats.png",
+    image: "/assets/img/projects/musestatspy.png",
     prototype: false,
   },
 ];

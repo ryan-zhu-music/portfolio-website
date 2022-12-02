@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BsFillMouseFill } from "react-icons/bs";
+import { BsMouse } from "react-icons/bs";
 import { projects } from "../../data/projects";
 import Project from "./project";
 import Modal from "./modal";
@@ -14,7 +14,7 @@ export default function Projects() {
       </h1>
       <div className="font-montserrat text-sm md:text-base lg:text-lg text-mauve flex flex-row flex-nowrap justify-center items-center">
         <p>Click to learn more!</p>
-        <BsFillMouseFill className="ml-1" />
+        <BsMouse className="ml-1" />
       </div>
       <div
         className={`w-full h-48 my-10 py-3 bg-transparent overflow-x-scroll flex flex-row flex-nowrap`}
