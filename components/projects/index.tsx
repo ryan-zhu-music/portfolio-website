@@ -19,11 +19,12 @@ export default function Projects() {
       <div
         className={`w-full h-52 my-10 py-3 bg-transparent overflow-x-scroll flex flex-row flex-nowrap z-20`}
       >
-        {projects.map((project) => (
+        {projects.map((project, index) => (
           <Project
             project={project}
             setOpen={setShowModal}
             setProject={setSelectedProject}
+            key={index}
           />
         ))}
       </div>

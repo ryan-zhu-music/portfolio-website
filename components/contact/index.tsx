@@ -9,7 +9,8 @@ export default function Contact() {
           Contact
         </h2>
         <p className="text-white font-montserrat tracking-[0.05em] text-base md:text-lg my-5 font-normal">
-          Want to get in touch? Fill out the form, and I'll get back to you!
+          Want to get in touch? Fill out the form, and I&apos;ll get back to
+          you!
         </p>
         <p className="text-white font-montserrat tracking-[0.05em] text-base md:text-lg font-normal">
           Feel free to contact me about anything!

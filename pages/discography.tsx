@@ -1,6 +1,6 @@
 import React from "react";
 import Playlist from "../components/music/playlist";
-import { FaSpotify, FaInstagram, FaYoutube } from "react-icons/fa";
+import Footer from "../components/footer";
 import { soundtracks, piano, ensemble } from "../data/tracks";
 import { music_socials } from "../data/socials";
 import Navbar from "../components/navbar";
@@ -65,6 +65,7 @@ export default function Discography() {
           ))}
         </div>
       </div>
+      <Footer />
     </main>
   );
 }

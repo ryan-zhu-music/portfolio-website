@@ -1,5 +1,6 @@
 import React from "react";
 import useWindowDimensions from "../../hooks/useWindowDimensions";
+import Image from "next/image";
 
 export default function Modal({ project, setOpen }: any) {
   const { width, height } = useWindowDimensions();
@@ -16,10 +17,12 @@ export default function Modal({ project, setOpen }: any) {
         className={`w-3/5 h-[70%] mt-16 gradient-mauve rounded-xl flex flex-col md:flex-row cursor-default`}
       >
         <div className="w-full md:w-2/5 h-1/5 md:h-full flex flex-col justify-center items-center">
-          <img
+          <Image
             src={project.image}
             alt={project.title}
             className="w-full h-full object-cover"
+            width={1024}
+            height={1024}
           />
         </div>
         <div className="w-full md:w-3/5 h-4/5 md:h-full flex flex-col justify-between items-start pl-5 pr-14 py-5 md:py-9">

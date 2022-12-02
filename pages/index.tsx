@@ -5,6 +5,7 @@ import About from "../components/about";
 import Music from "../components/music";
 import Contact from "../components/contact";
 import Projects from "../components/projects";
+import Footer from "../components/footer";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <Music />
         <Projects />
         <Contact />
+        <Footer />
       </main>
     </>
   );
