@@ -9,7 +9,7 @@ export default function Discography() {
   return (
     <main className="bg-[url('/assets/img/background.png')] bg-cover bg-top flex flex-col items-center justify-center">
       <Navbar />
-      <header className="w-screen h-screen flex flex-col items-center justify-center">
+      <header className="w-screen h-screen flex flex-col items-center justify-center pt-16">
         <h1 className="text-white tracking-[0.5em] drop-shadow-xl font-elianto uppercase text-3xl md:text-5xl lg:text-7xl pt-5">
           Discography
         </h1>

@@ -11,19 +11,19 @@ export default function Navbar() {
   return (
     <nav
       className={
-        "w-5/6 md:w-1/2 lg:w-5/6 h-16 mt-5 fixed top-0 flex flex-row items-center justify-center rounded-full duration-1000 z-20 "
+        "w-5/6 md:w-1/2 lg:w-5/6 h-16 mt-5 fixed top-0 flex flex-row items-center justify-center rounded-full duration-1000 z-30 "
       }
     >
       <div
         className={
-          "z-10 absolute h-16 rounded-full gradient-mauve duration-1000 transition-all ease-in-out " +
-          (scrollPosition.y > 30 ? "opacity-100 w-5/6" : "opacity-0 w-full")
+          "z-20 absolute h-16 rounded-full gradient-mauve duration-1000 transition-all ease-in-out " +
+          (scrollPosition.y > 30 ? "opacity-100 w-2/3" : "opacity-0 w-5/6")
         }
       />
       <ul
         className={
-          "z-20 px-10 flex flex-row justify-between items-center transition-all duration-1000 ease-in-out " +
-          (scrollPosition.y > 30 ? "w-5/6" : "w-full")
+          "z-30 px-10 flex flex-row justify-between items-center transition-all duration-1000 ease-in-out " +
+          (scrollPosition.y > 30 ? "w-2/3" : "w-5/6")
         }
       >
         {links.map((link) => (
@@ -33,7 +33,7 @@ export default function Navbar() {
               href={link.link}
               className="text-2xl lg:text-sm xl:text-lg text-white mx-7 font-elianto tracking-[0.3em] uppercase"
             >
-              {width > 1024 ? link.name : link.icon}
+              {width > 768 ? link.name : link.icon}
             </Link>
           </li>
         ))}

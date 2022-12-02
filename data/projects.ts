@@ -1,5 +1,19 @@
 export const projects = [
   {
+    title: "YRHacks",
+    type: "Hackathon",
+    date: "Upcoming",
+    tech_stack: ["Next.js", "TailwindCSS", "TypeScript", "Mailchimp"],
+    description: [
+      "A student-run hackathon for 300+ high school students across the York Region District School Board.",
+      "As a logistics technology executive, I am responsible for the development of the website and Discord bot, as well as other organizational tasks.",
+      "Planning for the third iteration in 2023 is in progress!",
+    ],
+    image: "/assets/img/projects/yrhacks.png",
+    url: "https://www.yrhacks.ca/",
+    prototype: false,
+  },
+  {
     title: "MuseBench",
     type: "Web App",
     date: "October 2022 -",
@@ -53,6 +67,7 @@ export const projects = [
     tech_stack: ["Wordpress", "HTML", "CSS"],
     description: [
       "An online magazine for over a dozen creative writers and talented artists, read by thousands.",
+      "I was responsible for designing, building, and maintaining the website.",
     ],
     image: "/assets/img/projects/thebrainscramble.png",
     url: "https://thebrainscramble.com",

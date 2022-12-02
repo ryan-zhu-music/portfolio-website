@@ -6,7 +6,6 @@ import {
   FaDiscord,
   FaHome,
   FaCompactDisc,
-  FaFolderOpen,
   FaEnvelope,
   FaSpotify,
   FaYoutube,
@@ -63,11 +62,6 @@ export const links = [
     name: "Discography",
     icon: <FaCompactDisc />,
     link: "/discography",
-  },
-  {
-    name: "Portfolio",
-    icon: <FaFolderOpen />,
-    link: "/portfolio",
   },
   {
     name: "Contact",

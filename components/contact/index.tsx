@@ -3,7 +3,7 @@ import { FaEnvelope, FaPhoneAlt } from "react-icons/fa";
 
 export default function Contact() {
   return (
-    <main className="w-screen py-32 grid grid-cols-1 md:grid-cols-2 px-10 md:px-20 lg:px-48">
+    <main className="w-screen py-32 grid grid-cols-1 md:grid-cols-2 px-10 md:px-20 lg:px-48 z-0">
       <div className="flex flex-col items-start justify-start h-full">
         <h2 className="text-white tracking-[0.5em] drop-shadow-xl font-elianto uppercase text-5xl pt-5">
           Contact
