@@ -17,7 +17,7 @@ export default function Projects() {
         <BsMouse className="ml-1" />
       </div>
       <div
-        className={`w-full h-48 my-10 py-3 bg-transparent overflow-x-scroll flex flex-row flex-nowrap`}
+        className={`w-full h-52 my-10 py-3 bg-transparent overflow-x-scroll flex flex-row flex-nowrap`}
       >
         {projects.map((project) => (
           <Project
