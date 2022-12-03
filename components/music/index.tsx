@@ -7,10 +7,17 @@ import Link from "next/link";
 export default function Music() {
   return (
     <main className="w-screen flex flex-col items-center justify-center px-10 md:px-20 lg:px-32 py-10 md:py-24 lg:py-32">
-      <h2 className="text-2xl md:text-3xl lg:text-5xl drop-shadow-lg text-white text-center uppercase tracking-[0.3em]">
+      <h2
+        className="text-2xl md:text-3xl lg:text-5xl drop-shadow-lg text-white text-center uppercase tracking-[0.3em] pl-3"
+        data-aos="flip-right"
+      >
         Music
       </h2>
-      <p className="text-base md:text-lg lg:text-xl drop-shadow-lg text-mauve my-2 font-normal text-center md:text-center">
+      <p
+        className="text-base md:text-lg lg:text-xl drop-shadow-lg text-mauve my-2 font-normal text-center md:text-center"
+        data-aos="fade-up"
+        data-aos-delay={200}
+      >
         Browse through my library of original compositions and arrangements,
         spanning various styles including Classicism, Romanticism,
         Impressionism, and Modernism.
@@ -19,6 +26,8 @@ export default function Music() {
         href="/discography"
         passHref
         className="mt-3 text-white font-elianto uppercase tracking-[0.3em] hover:tracking-[0.4em] text-xs md:text-sm ring-white ring-1 px-6 py-2 rounded-full font-semibold hover:shadow-sm hover:scale-105 duration-500 ease-in-out cursor-pointer"
+        data-aos="zoom-in-up"
+        data-aos-delay={500}
       >
         <p>Browse</p>
       </Link>

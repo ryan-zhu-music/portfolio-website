@@ -8,6 +8,7 @@ export default function Playlist({ props }: any) {
       className={
         "relative w-full min-h-[240px] flex flex-col items-center justify-center duration-500 ease-in-out shadow-sm hover:shadow-lg hover:scale-[101%]"
       }
+      data-aos="zoom-in-up"
     >
       <ParallaxBanner className="h-full min-h-[240px]">
         <ParallaxBannerLayer

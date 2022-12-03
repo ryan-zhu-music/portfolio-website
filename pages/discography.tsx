@@ -11,12 +11,30 @@ export default function Discography() {
       <Navbar />
       <header className="w-screen h-screen flex flex-col items-center justify-center pt-16 px-5 md:px-20 lg:px-32">
         <h1 className="text-white tracking-[0.3em] md:tracking-[0.5em] drop-shadow-xl font-elianto uppercase text-2xl md:text-4xl lg:text-6xl pt-5">
-          Discography
+          {"Discography".split("").map((letter, index) => (
+            <span
+              key={index}
+              style={{
+                animationDelay: index / 6 + "s",
+              }}
+              className="fader"
+            >
+              {letter}
+            </span>
+          ))}
         </h1>
-        <p className="text-white font-elianto tracking-[0.1em] text-xl md:text-2xl my-5 font-normal text-center">
+        <p
+          data-aos="fade-up"
+          data-aos-delay={200}
+          className="text-mauve font-elianto tracking-[0.1em] text-xl md:text-2xl my-5 font-normal text-center"
+        >
           My library of compositions and arrangements.
         </p>
-        <div className="flex flex-wrap w-full justify-center">
+        <div
+          data-aos="fade-up"
+          data-aos-delay={400}
+          className="flex flex-wrap w-full justify-center"
+        >
           <p className="text-white font-montserrat tracking-[0.05em] text-base md:text-lg font-normal">
             Want to support me?
           </p>
@@ -29,14 +47,18 @@ export default function Discography() {
             Buy me a coffee! ☕
           </a>
         </div>
-        <ul className="flex flex-row">
+        <ul
+          data-aos="zoom-in-up"
+          data-aos-delay={600}
+          className="flex flex-row"
+        >
           {music_socials.map((social) => (
             <li className="mx-3" key={social.name}>
               <a
                 href={social.url}
                 target="_blank"
                 rel="noreferrer noopener"
-                className="text-4xl lg:text-5xl text-mauve mx-10 hover:drop-shadow-md hover:scale-105 duration-500 hover:text-white ease-in-out"
+                className="text-4xl text-mauve mx-10 hover:drop-shadow-md hover:scale-105 duration-500 hover:text-white ease-in-out"
               >
                 {social.icon}
               </a>
@@ -44,10 +66,12 @@ export default function Discography() {
           ))}
         </ul>
         <a
+          data-aos="fade-up"
+          data-aos-delay={800}
           href="https://musescore.com/user/34214067"
           target="_blank"
           rel="noreferrer noopener"
-          className="text-white font-elianto uppercase tracking-[0.3em] hover:tracking-[0.4em] text-base md:text-lg gradient-mauve px-7 py-4 rounded-full font-semibold hover:shadow-sm hover:scale-105 duration-500 ease-in-out"
+          className="text-white font-elianto uppercase tracking-[0.3em] hover:tracking-[0.4em] text-base md:text-lg gradient-mauve px-7 py-4 rounded-full font-semibold hover:shadow-sm hover:scale-[102%] duration-500 ease-in-out"
         >
           Sheet Music
         </a>

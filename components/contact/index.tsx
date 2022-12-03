@@ -68,24 +68,41 @@ export default function Contact() {
       className="w-screen py-32 grid grid-cols-1 md:grid-cols-2 px-10 md:px-20 lg:px-48 z-0"
     >
       <div className="flex flex-col items-start justify-start h-full">
-        <h2 className="text-2xl md:text-3xl lg:text-5xl drop-shadow-lg text-white text-center uppercase tracking-[0.3em]">
+        <h2
+          className="text-2xl md:text-3xl lg:text-5xl drop-shadow-lg text-white text-center uppercase tracking-[0.3em]"
+          data-aos="fade-right"
+        >
           Contact
         </h2>
-        <p className="text-white font-montserrat tracking-[0.05em] text-sm md:text-base my-5 font-normal pr-8">
+        <p
+          className="text-white font-montserrat tracking-[0.05em] text-sm md:text-base my-5 font-normal pr-8"
+          data-aos="fade-right"
+          date-aos-delay={200}
+        >
           Let's get in touch! Fill out the form, and I&apos;ll get back to you!
         </p>
-        <p className="text-white font-montserrat tracking-[0.05em] text-sm md:text-base font-normal">
+        <p
+          className="text-white font-montserrat tracking-[0.05em] text-sm md:text-base font-normal"
+          data-aos="fade-right"
+          date-aos-delay={400}
+        >
           Feel free to contact me about anything!
         </p>
         <div className="w-full flex flex-col justify-start items-start">
           <a
             href="mailto:rz.ryanzhu@gmail.com"
             className="text-white font-montserrat tracking-[0.05em] text-sm md:text-base my-3 font-normal"
+            data-aos="fade-right"
+            date-aos-delay={800}
           >
             <FaEnvelope className="inline-block mr-4" />
             rz.ryanzhu@gmail.com
           </a>
-          <div className="text-white font-montserrat tracking-[0.05em] text-sm md:text-base font-normal">
+          <div
+            className="text-white font-montserrat tracking-[0.05em] text-sm md:text-base font-normal"
+            data-aos="fade-right"
+            date-aos-delay={900}
+          >
             <FaPhoneAlt className="inline-block mr-4" />
             (437) 776-1039
           </div>
@@ -96,6 +113,7 @@ export default function Contact() {
         className="gradient-mauve w-full h-full p-5 mt-5"
         name="form"
         autoComplete="off"
+        data-aos="fade-left"
       >
         <input
           type="text"
