@@ -20,7 +20,6 @@ export default function Hero() {
       </h1>
       <TypeAnimation
         sequence={[
-          1500,
           "Contemporary Musician",
           5000,
           "Full-Stack Developer",
@@ -29,10 +28,10 @@ export default function Hero() {
           5000,
           "Virtuoso Pianist",
           5000,
-          "Curious Learner",
+          "Avid Learner",
           5000,
-          "Diligent Mentor",
-          3500,
+          "Supportive Mentor",
+          5000,
         ]}
         wrapper="h2"
         cursor={true}
@@ -42,7 +41,7 @@ export default function Hero() {
       <div
         className="flex flex-row mt-6"
         data-aos="zoom-in-up"
-        data-aos-delay={2500}
+        data-aos-delay={200}
       >
         {socials.map((social) => (
           <a

@@ -79,7 +79,8 @@ export default function Contact() {
           data-aos="fade-right"
           date-aos-delay={200}
         >
-          Let's get in touch! Fill out the form, and I&apos;ll get back to you!
+          Let&apos;s get in touch! Fill out the form, and I&apos;ll get back to
+          you!
         </p>
         <p
           className="text-white font-montserrat tracking-[0.05em] text-sm md:text-base font-normal"
@@ -137,8 +138,8 @@ export default function Contact() {
           name="message"
           id="message"
           placeholder="Message"
-          rows={6}
-          className="w-full h-32 p-5 mb-5 duration-500 ease-in-out focus:outline-none ring-purple-200/10 ring-1 focus:ring-white hover:ring-mauve bg-purple-200/10 placeholder:text-mauve-light text-white"
+          rows={5}
+          className="w-full h-40 p-5 mb-5 resize-none duration-500 ease-in-out focus:outline-none ring-purple-200/10 ring-1 focus:ring-white hover:ring-mauve bg-purple-200/10 placeholder:text-mauve-light text-white"
           required
           onChange={handleChange}
         />
