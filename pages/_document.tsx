@@ -31,7 +31,7 @@ export default function Document() {
           content="Learn more about contemporary musician and full-stack developer Ryan Zhu, and browse through Ryan's collection of music compositions and projects."
         />
         <meta property="og:locale" content="en_US" />
-        <meta property="og:image" content="/assets/img/og-image.png" />
+        <meta property="og:image" content="/assets/icons/og-image.png" />
         <meta property="og:image:alt" content="Ryan Zhu" />
         <meta property="og:image:width" content="512" />
         <meta property="og:image:height" content="512" />
