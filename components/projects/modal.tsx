@@ -21,13 +21,13 @@ export default function Modal({ project, setOpen, projects, setProject }: any) {
         onClick={() => setOpen(false)}
       />
       <div
-        className={`w-[70%] md:w-3/5 max-h-[70%] flex gradient-mauve rounded-xl flex-col md:flex-row items-center justify-start cursor-default`}
+        className={`w-[70%] md:w-3/5 h-[70%] flex gradient-mauve rounded-xl flex-col md:flex-row items-center justify-start cursor-default`}
       >
         <div className="w-full md:w-2/5 h-40 md:h-full">
           <Image
             src={project.image}
             alt={project.title}
-            className="w-full h-[101%] object-cover rounded-t-xl md:rounded-l-xl"
+            className="w-full h-[101%] object-cover rounded-tl-xl rounded-tr-xl md:rounded-tr-none md:rounded-bl-xl"
             width={1024}
             height={1024}
           />
@@ -42,7 +42,7 @@ export default function Modal({ project, setOpen, projects, setProject }: any) {
           <p className="font-montserrat text-xs md:text-sm lg:text-base my-2 text-mauve font-normal">
             {project.tech_stack.join(" • ")}
           </p>
-          <div className="overflow-y-scroll h-1/2 border-t-[1px] border-b-[1px] py-2 my-3 border-mauve">
+          <div className="overflow-y-scroll h-1/2 flex flex-col border-t-[1px] border-b-[1px] py-2 my-3 border-mauve">
             {project.description.map(
               (paragraph: string, index: number) =>
                 paragraph && (
