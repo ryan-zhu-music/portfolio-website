@@ -22,7 +22,7 @@ export default function Navbar() {
       />
       <ul
         className={
-          "z-30 px-7 md:px-16 flex flex-row justify-between items-center transition-all duration-1000 ease-in-out " +
+          "z-30 px-7 md:px-10 lg:px-16 flex flex-row justify-evenly md:justify-between items-center transition-all duration-1000 ease-in-out " +
           (scrollPosition.y > 30 ? "w-2/3" : "w-5/6")
         }
       >
@@ -31,7 +31,7 @@ export default function Navbar() {
             <Link
               key={link.name}
               href={link.link}
-              className="text-2xl md:text-sm lg:text-md xl:text-lg text-white font-elianto tracking-[0.3em] uppercase duration-500 ease-in-out hover:drop-shadow-md hover:tracking-[0.4em]"
+              className="text-2xl md:text-base lg:text-lg text-white font-elianto tracking-[0.15em] lg:tracking-[0.25em] uppercase duration-500 ease-in-out hover:drop-shadow-md hover:tracking-[0.4em]"
             >
               {width > 768 ? link.name : link.icon}
             </Link>

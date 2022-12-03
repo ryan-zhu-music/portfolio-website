@@ -18,7 +18,7 @@ export default function Music() {
       <Link
         href="/discography"
         passHref
-        className="mt-3 text-white font-elianto uppercase tracking-[0.3em] hover:tracking-[0.4em] text-xs md:text-sm ring-white ring-1 px-6 py-2 rounded-full font-semibold hover:shadow-sm duration-300 ease-in-out cursor-pointer"
+        className="mt-3 text-white font-elianto uppercase tracking-[0.3em] hover:tracking-[0.4em] text-xs md:text-sm ring-white ring-1 px-6 py-2 rounded-full font-semibold hover:shadow-sm hover:scale-105 duration-500 ease-in-out cursor-pointer"
       >
         <p>Browse</p>
       </Link>

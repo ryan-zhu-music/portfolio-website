@@ -66,6 +66,6 @@ export const links = [
   {
     name: "Contact",
     icon: <FaEnvelope />,
-    link: "/contact",
+    link: "/#contact",
   },
 ];

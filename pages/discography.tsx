@@ -36,7 +36,7 @@ export default function Discography() {
                 href={social.url}
                 target="_blank"
                 rel="noreferrer noopener"
-                className="text-4xl md:text-5xl lg:text-6xl text-mauve mx-10 hover:drop-shadow-md hover:scale-105 duration-500 hover:text-white ease-in-out"
+                className="text-4xl lg:text-5xl text-mauve mx-10 hover:drop-shadow-md hover:scale-105 duration-500 hover:text-white ease-in-out"
               >
                 {social.icon}
               </a>

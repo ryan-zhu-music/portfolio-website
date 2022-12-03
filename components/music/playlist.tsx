@@ -6,7 +6,7 @@ export default function Playlist({ props }: any) {
   return (
     <div
       className={
-        "relative w-full min-h-[240px] flex flex-col items-center justify-center duration-500 ease-in-out shadow-md hover:shadow-xl hover:scale-[101%]"
+        "relative w-full min-h-[240px] flex flex-col items-center justify-center duration-500 ease-in-out shadow-sm hover:shadow-lg hover:scale-[101%]"
       }
     >
       <ParallaxBanner className="h-full min-h-[240px]">
