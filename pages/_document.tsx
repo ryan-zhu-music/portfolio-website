@@ -4,7 +4,6 @@ export default function Document() {
   return (
     <Html>
       <Head>
-        <title>Ryan Zhu's Personal Site</title>
         <meta
           name="description"
           content="Learn more about contemporary musician and full-stack developer Ryan Zhu, and browse through Ryan's collection of music compositions and projects."

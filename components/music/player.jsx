@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import Slider from "@mui/material/Slider";
 import { FaBackward, FaForward, FaPlay, FaPause } from "react-icons/fa";
-import useWindowDimensions from "../../hooks/useWindowDimensions";
 
 export default function Player({ tracks }) {
   const [trackIndex, setTrackIndex] = useState(0);

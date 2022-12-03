@@ -274,7 +274,7 @@ export const piano = [
         src: "/assets/audio/piano/RachmaninoffFugue.mp3",
       },
       {
-        title: 'Atonal"Cereal" Fugue',
+        title: 'Atonal "Cereal" Fugue',
         src: "/assets/audio/piano/AtonalFugue.mp3",
       },
       {
