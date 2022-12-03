@@ -3,7 +3,7 @@ import React from "react";
 export default function Project({ project, setOpen, setProject }: any) {
   return (
     <button
-      className="relative group h-full mx-2 px-10 flex flex-col justify-center items-start pt-6 hover:scale-[103%] duration-500 ease-in-out"
+      className="relative group h-full mx-2 px-10 flex flex-col justify-center items-start pt-6 hover:scale-[103%] duration-500 ease-in-out shadow-sm hover:shadow-md"
       onClick={() => {
         setOpen(true);
         setProject(project);

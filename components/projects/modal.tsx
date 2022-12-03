@@ -21,28 +21,28 @@ export default function Modal({ project, setOpen, projects, setProject }: any) {
         onClick={() => setOpen(false)}
       />
       <div
-        className={`w-3/5 h-[70%] mt-16 flex gradient-mauve rounded-xl flex-col md:flex-row items-center justify-evenly cursor-default`}
+        className={`w-[70%] md:w-3/5 max-h-[70%] flex gradient-mauve rounded-xl flex-col md:flex-row items-center justify-start cursor-default`}
       >
-        <div className="w-full md:w-2/5 h-1/5 md:h-full">
+        <div className="w-full md:w-2/5 h-40 md:h-full">
           <Image
             src={project.image}
             alt={project.title}
-            className="w-full h-[101%] object-cover rounded-l-xl"
+            className="w-full h-[101%] object-cover rounded-t-xl md:rounded-l-xl"
             width={1024}
             height={1024}
           />
         </div>
-        <div className="w-full md:w-3/5 h-4/5 md:h-full flex flex-col justify-between items-start pl-5 pr-14 py-5 md:py-9">
+        <div className="w-full md:w-3/5 h-3/4 md:h-full flex flex-col justify-start items-start pl-5 pr-5 md:pr-14 py-5 md:py-9">
           <h2 className="text-white text-xl md:text-xl lg:text-3xl font-elianto tracking-[0.3em] uppercase">
             {project.title}
           </h2>
-          <h3 className="font-montserrat italic font-bold text-xs md:text-sm text-mauve">
+          <h3 className="font-montserrat italic font-bold mt-1 text-xs md:text-sm text-mauve">
             October 2022 -
           </h3>
-          <p className="font-montserrat text-xs md:text-sm lg:text-base text-mauve font-normal">
+          <p className="font-montserrat text-xs md:text-sm lg:text-base my-2 text-mauve font-normal">
             {project.tech_stack.join(" • ")}
           </p>
-          <div className="overflow-y-scroll h-1/2 border-t-[1px] border-b-[1px] py-2 my-1 border-mauve">
+          <div className="overflow-y-scroll h-1/2 border-t-[1px] border-b-[1px] py-2 my-3 border-mauve">
             {project.description.map(
               (paragraph: string, index: number) =>
                 paragraph && (
@@ -55,7 +55,7 @@ export default function Modal({ project, setOpen, projects, setProject }: any) {
                 )
             )}
           </div>
-          <div className="w-full flex flex-row flex-nowrap justify-between items-center mt-2">
+          <div className="w-full flex flex-row flex-nowrap justify-between items-end my-3">
             <a
               href={project.url}
               target="_blank"
@@ -65,10 +65,10 @@ export default function Modal({ project, setOpen, projects, setProject }: any) {
               {project.prototype ? "Prototype" : "Visit"}
             </a>
             <button onClick={() => handleClick(-1)} className="h-full">
-              <AiOutlineCaretLeft className="text-white text-4xl" />
+              <AiOutlineCaretLeft className="text-white text-3xl md:text-4xl" />
             </button>
             <button onClick={() => handleClick(1)} className="h-full">
-              <AiOutlineCaretRight className="text-white text-4xl" />
+              <AiOutlineCaretRight className="text-white text-3xl md:text-4xl" />
             </button>
           </div>
         </div>

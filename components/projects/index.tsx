@@ -12,12 +12,12 @@ export default function Projects() {
       <h2 className="text-white tracking-[0.5em] drop-shadow-lg font-elianto uppercase text-2xl md:text-3xl lg:text-5xl pt-5">
         Projects
       </h2>
-      <div className="font-montserrat text-sm md:text-base lg:text-lg text-mauve mt-1 flex flex-row flex-nowrap justify-center items-center">
+      <div className="font-montserrat text-sm md:text-base lg:text-lg text-mauve mt-3 flex flex-row flex-nowrap justify-center items-center">
         <p>Click to learn more!</p>
         <BsMouse className="ml-1" />
       </div>
       <div
-        className={`w-full h-52 my-10 py-3 bg-transparent overflow-x-scroll flex flex-row flex-nowrap z-20`}
+        className={`w-full h-64 my-10 px-5 py-8 bg-transparent overflow-x-scroll flex flex-row flex-nowrap z-20`}
       >
         {projects.map((project, index) => (
           <Project

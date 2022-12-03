@@ -90,7 +90,7 @@ export const projects = [
       "Enabling 1000+ YRDSB students to view marks, manage course progress, book guidance appointments, and more handy student features.",
     ],
     image: "/assets/img/projects/teachassistapp.png",
-    url: "https://play.google.com/store/apps/details?id=io.github.teachassistapp",
+    url: "https://teachassistapp.github.io",
     prototype: false,
   },
   {
@@ -115,6 +115,7 @@ export const projects = [
       "Revamped and migrated to Next.js in December 2022.",
     ],
     image: "/assets/img/projects/personal-site.png",
+    url: "https://www.ryanzhu.com",
     prototype: false,
   },
   {
