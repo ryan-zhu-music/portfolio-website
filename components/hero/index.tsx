@@ -24,8 +24,6 @@ export default function Hero() {
           5000,
           "Full-Stack Developer",
           5000,
-          "Aspiring Student",
-          5000,
           "Virtuoso Pianist",
           5000,
           "Avid Learner",
