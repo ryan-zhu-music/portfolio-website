@@ -4,7 +4,7 @@ import { socials } from "../../data/socials";
 export default function Hero() {
   return (
     <header className="w-screen h-screen flex flex-col items-center justify-center px-5 md:px-20 lg:px-48">
-      <h1 className="text-3xl md:text-5xl lg:text-7xl drop-shadow-lg text-white text-center">
+      <h1 className="text-3xl md:text-5xl lg:text-7xl drop-shadow-lg text-white text-center pl-3">
         Ryan Zhu
       </h1>
       <h2 className="flex flex-col md:flex-row text-lg md:text-xl lg:text-2xl drop-shadow-lg text-mauve mt-6 text-center">
@@ -18,7 +18,7 @@ export default function Hero() {
             href={social.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-2xl md:text-3xl lg:text-4xl text-mauve mx-5 hover:drop-shadow-md hover:scale-105 duration-500 hover:text-white ease-in-out"
+            className="text-4xl md:text-5xl lg:text-6xl text-mauve mx-5 hover:drop-shadow-md hover:scale-105 duration-500 hover:text-white ease-in-out"
           >
             {social.icon}
           </a>

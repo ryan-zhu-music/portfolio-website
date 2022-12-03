@@ -1,10 +1,17 @@
 import React from "react";
-import useWindowDimensions from "../../hooks/useWindowDimensions";
+import { AiOutlineCaretLeft, AiOutlineCaretRight } from "react-icons/ai";
 import Image from "next/image";
 
-export default function Modal({ project, setOpen }: any) {
-  const { width, height } = useWindowDimensions();
-  console.log(height);
+export default function Modal({ project, setOpen, projects, setProject }: any) {
+  const handleClick = (direction: number) => {
+    const projectIndex = projects.findIndex(
+      (p: any) => p.title === project.title
+    );
+    setProject(
+      projects[(projects.length + projectIndex + direction) % projects.length]
+    );
+  };
+
   return (
     <div
       className={`fixed top-0 left-0 w-screen h-screen flex items-center justify-center bg-black bg-opacity-50 z-50 backdrop-blur-sm`}
@@ -14,13 +21,13 @@ export default function Modal({ project, setOpen }: any) {
         onClick={() => setOpen(false)}
       />
       <div
-        className={`w-3/5 h-[70%] mt-16 gradient-mauve rounded-xl flex flex-col md:flex-row cursor-default`}
+        className={`w-3/5 h-[70%] mt-16 flex gradient-mauve rounded-xl flex-col md:flex-row items-center justify-evenly cursor-default`}
       >
-        <div className="w-full md:w-2/5 h-1/5 md:h-full flex flex-col justify-center items-center">
+        <div className="w-full md:w-2/5 h-1/5 md:h-full">
           <Image
             src={project.image}
             alt={project.title}
-            className="w-full h-full object-cover"
+            className="w-full h-[101%] object-cover rounded-l-xl"
             width={1024}
             height={1024}
           />
@@ -48,14 +55,22 @@ export default function Modal({ project, setOpen }: any) {
                 )
             )}
           </div>
-          <a
-            href={project.url}
-            target="_blank"
-            rel="noreferrer noopener"
-            className="justify-self-end text-white font-elianto uppercase tracking-[0.3em] hover:tracking-[0.4em] text-xs md:text-sm ring-white ring-1 px-6 py-2 mt-2 rounded-full font-semibold hover:shadow-sm duration-300 ease-in-out cursor-pointer"
-          >
-            {project.prototype ? "Prototype" : "Visit"}
-          </a>
+          <div className="w-full flex flex-row flex-nowrap justify-between items-center mt-2">
+            <a
+              href={project.url}
+              target="_blank"
+              rel="noreferrer noopener"
+              className="justify-self-end text-white font-elianto uppercase tracking-[0.3em] hover:tracking-[0.4em] text-xs md:text-sm ring-white ring-1 px-6 py-2 rounded-full font-semibold hover:shadow-sm duration-300 ease-in-out cursor-pointer"
+            >
+              {project.prototype ? "Prototype" : "Visit"}
+            </a>
+            <button onClick={() => handleClick(-1)} className="h-full">
+              <AiOutlineCaretLeft className="text-white text-4xl" />
+            </button>
+            <button onClick={() => handleClick(1)} className="h-full">
+              <AiOutlineCaretRight className="text-white text-4xl" />
+            </button>
+          </div>
         </div>
       </div>
     </div>

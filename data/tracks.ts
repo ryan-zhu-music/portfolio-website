@@ -114,10 +114,6 @@ export const soundtracks = [
         title: "Azure Ascent",
         src: "/assets/audio/soundtracks/AzureAscent.mp3",
       },
-      {
-        title: "Arise!",
-        src: "/assets/audio/soundtracks/Arise.mp3",
-      },
     ],
     image: "/assets/img/discography/Natura.png",
   },
@@ -424,15 +420,15 @@ export const ensemble = [
       },
       {
         title: "Halcyon Days",
-        src: "/assets/audio/ensemble/HalcyonDays.mp3",
+        src: "/assets/audio/ensemble/HalcyonDaysPianoTrio.mp3",
       },
       {
-        title: "Rachmaninoff - Prelude in D Minor",
-        src: "/assets/audio/ensemble/RachmaninoffPreludeInDMinor.mp3",
+        title: "Rachmaninoff - Etude-Tableaux in D Minor",
+        src: "/assets/audio/ensemble/Etude-Tableaux 33-4.mp3",
       },
       {
-        title: "Rachmaninoff - Prelude in C Minor",
-        src: "/assets/audio/ensemble/RachmaninoffPreludeInCMinor.mp3",
+        title: "Rachmaninoff - Etude-Tableaux in C Minor",
+        src: "/assets/audio/ensemble/Etude-Tableaux 33-3.mp3",
       },
       {
         title: "C.G. - Fantasia Minore",

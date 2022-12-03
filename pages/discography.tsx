@@ -9,14 +9,14 @@ export default function Discography() {
   return (
     <main className="bg-[url('/assets/img/background.png')] bg-cover bg-top flex flex-col items-center justify-center">
       <Navbar />
-      <header className="w-screen h-screen flex flex-col items-center justify-center pt-16">
-        <h1 className="text-white tracking-[0.5em] drop-shadow-xl font-elianto uppercase text-3xl md:text-5xl lg:text-7xl pt-5">
+      <header className="w-screen h-screen flex flex-col items-center justify-center pt-16 px-5 md:px-20 lg:px-32">
+        <h1 className="text-white tracking-[0.3em] md:tracking-[0.5em] drop-shadow-xl font-elianto uppercase text-2xl md:text-4xl lg:text-6xl pt-5">
           Discography
         </h1>
-        <p className="text-white font-elianto tracking-[0.1em] text-xl md:text-2xl my-5 font-normal">
+        <p className="text-white font-elianto tracking-[0.1em] text-xl md:text-2xl my-5 font-normal text-center">
           My library of compositions and arrangements.
         </p>
-        <div className="flex flex-wrap">
+        <div className="flex flex-wrap w-full justify-center">
           <p className="text-white font-montserrat tracking-[0.05em] text-base md:text-lg font-normal">
             Want to support me?
           </p>
@@ -36,7 +36,7 @@ export default function Discography() {
                 href={social.url}
                 target="_blank"
                 rel="noreferrer noopener"
-                className="text-2xl md:text-3xl lg:text-4xl text-mauve mx-10 hover:drop-shadow-md hover:scale-105 duration-500 hover:text-white ease-in-out"
+                className="text-4xl md:text-5xl lg:text-6xl text-mauve mx-10 hover:drop-shadow-md hover:scale-105 duration-500 hover:text-white ease-in-out"
               >
                 {social.icon}
               </a>
@@ -53,7 +53,7 @@ export default function Discography() {
         </a>
       </header>
       <div className="w-screen px-10 md:px-20 lg:px-48 pt-10 pb-32">
-        <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-10">
           {soundtracks.map((track, index) => (
             <Playlist key={index} props={track} />
           ))}

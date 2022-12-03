@@ -16,7 +16,6 @@ export default function Player({ tracks }) {
 
   useEffect(() => {
     //new track
-    console.log("updating track");
     setAudio(new Audio(src));
     setTrackProgress(0);
     setDuration(0);
@@ -64,11 +63,11 @@ export default function Player({ tracks }) {
   };
 
   return (
-    <div className="w-full">
-      <h3 className="text-sm md:text-base lg:text-lg tracking-[0.2em] uppercase drop-shadow-lg text-white text-center md:text-start mt-2 mb-1">
+    <div className="w-full flex flex-col items-start jusitfy-center">
+      <h3 className="text-sm md:text-base lg:text-lg tracking-[0.2em] uppercase drop-shadow-lg text-white text-center md:text-start mt-3 md:mt-2 mb-1">
         {title}
       </h3>
-      <div className={"flex flex-row justify-between items-center"}>
+      <div className={"w-full flex flex-row justify-between items-center"}>
         <button
           type="button"
           aria-label="Previous"
@@ -105,16 +104,17 @@ export default function Player({ tracks }) {
           onChange={(e, value) => {
             handleScrub(value);
           }}
+          classes={{ root: "!py-1" }}
           sx={{
             color: "rgba(183,170,196,0.7)",
             width: "full",
             height: 25,
-            paddingY: 0,
             "& .MuiSlider-thumb": {
               width: 0,
               height: 0,
               boxShadow: "none",
               opacity: 0,
+              p: 0,
               "&.Mui-active": {
                 width: 0,
                 height: 0,

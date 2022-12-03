@@ -11,7 +11,7 @@ export default function Navbar() {
   return (
     <nav
       className={
-        "w-5/6 md:w-1/2 lg:w-5/6 h-16 mt-5 fixed top-0 flex flex-row items-center justify-center rounded-full duration-1000 z-30 "
+        "w-5/6 h-16 mt-5 fixed top-0 flex flex-row items-center justify-center rounded-full duration-1000 z-30 "
       }
     >
       <div
@@ -22,7 +22,7 @@ export default function Navbar() {
       />
       <ul
         className={
-          "z-30 px-10 flex flex-row justify-between items-center transition-all duration-1000 ease-in-out " +
+          "z-30 px-7 md:px-16 flex flex-row justify-between items-center transition-all duration-1000 ease-in-out " +
           (scrollPosition.y > 30 ? "w-2/3" : "w-5/6")
         }
       >
@@ -31,7 +31,7 @@ export default function Navbar() {
             <Link
               key={link.name}
               href={link.link}
-              className="text-2xl lg:text-sm xl:text-lg text-white mx-7 font-elianto tracking-[0.3em] uppercase"
+              className="text-2xl md:text-sm lg:text-md xl:text-lg text-white font-elianto tracking-[0.3em] uppercase duration-500 ease-in-out hover:drop-shadow-md hover:tracking-[0.4em]"
             >
               {width > 768 ? link.name : link.icon}
             </Link>

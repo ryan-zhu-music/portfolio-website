@@ -9,10 +9,10 @@ export default function Projects() {
   const [selectedProject, setSelectedProject] = useState(null);
   return (
     <main className="relative w-full flex flex-col items-center justify-center py-16 px-10 md:px-20 lg:px-32">
-      <h1 className="text-white tracking-[0.5em] drop-shadow-xl font-elianto uppercase text-xl md:text-2xl lg:text-4xl pt-5">
+      <h2 className="text-white tracking-[0.5em] drop-shadow-lg font-elianto uppercase text-2xl md:text-3xl lg:text-5xl pt-5">
         Projects
-      </h1>
-      <div className="font-montserrat text-sm md:text-base lg:text-lg text-mauve flex flex-row flex-nowrap justify-center items-center">
+      </h2>
+      <div className="font-montserrat text-sm md:text-base lg:text-lg text-mauve mt-1 flex flex-row flex-nowrap justify-center items-center">
         <p>Click to learn more!</p>
         <BsMouse className="ml-1" />
       </div>
@@ -28,7 +28,14 @@ export default function Projects() {
           />
         ))}
       </div>
-      {showModal && <Modal project={selectedProject} setOpen={setShowModal} />}
+      {showModal && (
+        <Modal
+          project={selectedProject}
+          setOpen={setShowModal}
+          projects={projects}
+          setProject={setSelectedProject}
+        />
+      )}
     </main>
   );
 }
