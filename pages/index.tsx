@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Ryan Zhu's Personal Site</title>
+        <title>Ryan Zhu&apos;s Personal Site</title>
       </Head>
       <main className="bg-[url('/assets/img/background.png')] bg-cover bg-top flex flex-col items-center justify-center">
         <Navbar />
