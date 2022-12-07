@@ -11,7 +11,7 @@ export default function Custom404() {
         404
       </h1>
       <h2 className="mb-10 text-2xl text-center font-montserrat text-mauve font-normal tracking-wider">
-        Hmm...seems like this page doesn't exist.
+        Hmm...seems like this page doesn&apos;t exist.
       </h2>
       <Link
         href="/"
