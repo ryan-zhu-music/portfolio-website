@@ -31,7 +31,7 @@ export default function Discography() {
           <p
             data-aos="fade-up"
             data-aos-delay={200}
-            className="text-mauve font-elianto tracking-[0.1em] text-xl md:text-2xl my-5 font-normal text-center"
+            className="text-mauve font-elianto tracking-[0.1em] text-xl md:text-2xl my-3 font-normal text-center"
           >
             My library of compositions and arrangements.
           </p>
@@ -55,7 +55,7 @@ export default function Discography() {
           <ul
             data-aos="zoom-in-up"
             data-aos-delay={600}
-            className="flex flex-row"
+            className="flex flex-row my-5"
           >
             {music_socials.map((social) => (
               <li className="mx-3" key={social.name}>
@@ -63,7 +63,7 @@ export default function Discography() {
                   href={social.url}
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="text-4xl text-mauve mx-10 hover:drop-shadow-md hover:scale-105 duration-500 hover:text-white ease-in-out"
+                  className="text-4xl text-mauve hover:drop-shadow-md hover:scale-105 duration-500 hover:text-white ease-in-out"
                 >
                   {social.icon}
                 </a>
@@ -76,7 +76,7 @@ export default function Discography() {
             href="https://musescore.com/user/34214067"
             target="_blank"
             rel="noreferrer noopener"
-            className="text-white font-elianto uppercase tracking-[0.3em] hover:tracking-[0.4em] text-base md:text-lg gradient-mauve px-7 py-4 rounded-full font-semibold hover:shadow-sm hover:scale-[102%] duration-500 ease-in-out"
+            className="text-white font-elianto uppercase tracking-[0.3em] hover:tracking-[0.4em] text-base md:text-lg gradient-mauve px-7 py-4 mt-2 rounded-full font-semibold hover:shadow-sm hover:scale-[102%] duration-500 ease-in-out"
           >
             Sheet Music
           </a>
