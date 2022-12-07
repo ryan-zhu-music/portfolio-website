@@ -34,7 +34,7 @@ export default function Navbar() {
               key={link.name}
               href={link.link}
               className={
-                "text-2xl md:text-base lg:text-lg font-elianto tracking-[0.15em] lg:tracking-[0.25em] uppercase duration-500 ease-in-out hover:drop-shadow-md hover:tracking-[0.4em] " +
+                "text-2xl md:text-base lg:text-lg font-elianto tracking-[0.15em] lg:tracking-[0.25em] uppercase duration-500 ease-in-out hover:drop-shadow-md hover:text-white hover:tracking-[0.4em] " +
                 (router.pathname === link.link
                   ? "text-white"
                   : "text-mauve-light")

@@ -4,12 +4,15 @@ import {
   FaLinkedin,
   FaInstagram,
   FaDiscord,
+  FaAmazon,
   FaHome,
   FaCompactDisc,
   FaEnvelope,
   FaSpotify,
+  FaSoundcloud,
   FaYoutube,
 } from "react-icons/fa";
+import { SiApplemusic } from "react-icons/si";
 
 export const socials = [
   {
@@ -49,6 +52,21 @@ export const music_socials = [
     name: "YouTube",
     url: "https://www.youtube.com/channel/UCHIpJEaiDBQ8Jd07tZj0D7A",
     icon: <FaYoutube />,
+  },
+  {
+    name: "Apple Music",
+    url: "https://music.apple.com/us/artist/rzmusic/1633238705",
+    icon: <SiApplemusic />,
+  },
+  {
+    name: "Amazon Music",
+    url: "https://www.amazon.co.uk/music/player/artists/B0B5XT78F2/rzmusic",
+    icon: <FaAmazon />,
+  },
+  {
+    name: "Soundcloud",
+    url: "https://soundcloud.com/ryan-zhu-music",
+    icon: <FaSoundcloud />,
   },
 ];
 
