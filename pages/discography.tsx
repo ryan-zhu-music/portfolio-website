@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Playlist from "../components/music/playlist";
+import Tooltip from "../components/tooltip";
 import Footer from "../components/footer";
 import { soundtracks, piano, ensemble } from "../data/tracks";
 import { music_socials } from "../data/socials";
@@ -59,14 +60,17 @@ export default function Discography() {
           >
             {music_socials.map((social) => (
               <li className="mx-3" key={social.name}>
-                <a
-                  href={social.url}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="text-4xl text-mauve hover:drop-shadow-md hover:scale-105 duration-500 hover:text-white ease-in-out"
-                >
-                  {social.icon}
-                </a>
+                <Tooltip text={social.name}>
+                  <a
+                    id={social.name}
+                    href={social.url}
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="text-4xl text-mauve hover:drop-shadow-md hover:scale-105 duration-500 hover:text-white ease-in-out"
+                  >
+                    {social.icon}
+                  </a>
+                </Tooltip>
               </li>
             ))}
           </ul>
@@ -76,7 +80,7 @@ export default function Discography() {
             href="https://musescore.com/user/34214067"
             target="_blank"
             rel="noreferrer noopener"
-            className="text-white font-elianto uppercase tracking-[0.3em] hover:tracking-[0.4em] text-base md:text-lg gradient-mauve px-7 py-4 mt-2 rounded-full font-semibold hover:shadow-sm hover:scale-[102%] duration-500 ease-in-out"
+            className="text-white font-elianto uppercase tracking-[0.3em] hover:tracking-[0.4em] text-base md:text-lg gradient-mauve px-7 py-4 mt-5 rounded-full font-semibold hover:shadow-sm hover:scale-[102%] duration-500 ease-in-out"
           >
             Sheet Music
           </a>

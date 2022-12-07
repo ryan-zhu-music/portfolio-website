@@ -1,6 +1,7 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { socials } from "../../data/socials";
+import Tooltip from "../tooltip";
 
 export default function Hero() {
   return (
@@ -42,15 +43,17 @@ export default function Hero() {
         data-aos-delay={200}
       >
         {socials.map((social) => (
-          <a
-            key={social.name}
-            href={social.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-4xl text-mauve mx-5 hover:drop-shadow-md hover:scale-105 duration-500 hover:text-white ease-in-out"
-          >
-            {social.icon}
-          </a>
+          <Tooltip key={social.name} text={social.name} className="mx-3">
+            <a
+              key={social.name}
+              href={social.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-4xl text-mauve mx-5 hover:drop-shadow-md hover:scale-105 duration-500 hover:text-white ease-in-out"
+            >
+              {social.icon}
+            </a>
+          </Tooltip>
         ))}
       </div>
     </header>
