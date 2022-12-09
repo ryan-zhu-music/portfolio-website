@@ -12,7 +12,7 @@ export const spotlight = [
         src: "/assets/audio/soundtracks/Silvergreen.mp3",
       },
     ],
-    image: "/assets/img/discography/Soundtracks.webp",
+    image: "/assets/img/discography/rzmusic-soundtracks.webp",
   },
   {
     title: "Ensemble",
@@ -30,7 +30,7 @@ export const spotlight = [
         title: "Ace of Spades",
       },
     ],
-    image: "/assets/img/discography/Ensemble.webp",
+    image: "/assets/img/discography/rzmusic-ensemble.webp",
   },
   {
     title: "Piano",
@@ -50,7 +50,7 @@ export const spotlight = [
         src: "/assets/audio/piano/RachmaninoffFugue.mp3",
       },
     ],
-    image: "/assets/img/discography/Piano.webp",
+    image: "/assets/img/discography/rzmusic-piano.webp",
   },
 ];
 
@@ -84,7 +84,7 @@ export const soundtracks = [
         src: "/assets/audio/soundtracks/AncientAwakening.mp3",
       },
     ],
-    image: "/assets/img/discography/AncientFantasies.webp",
+    image: "/assets/img/discography/rzmusic-ancient-fantasies.webp",
   },
   {
     title: "Natura",
@@ -115,7 +115,7 @@ export const soundtracks = [
         src: "/assets/audio/soundtracks/AzureAscent.mp3",
       },
     ],
-    image: "/assets/img/discography/Natura.webp",
+    image: "/assets/img/discography/rzmusic-natura.webp",
   },
   {
     title: "Medieval Times",
@@ -138,7 +138,7 @@ export const soundtracks = [
         src: "/assets/audio/soundtracks/ArcaneAbyss.mp3",
       },
     ],
-    image: "/assets/img/discography/MedievalTimes.webp",
+    image: "/assets/img/discography/rzmusic-medieval-times.webp",
   },
   {
     title: "Little Fantasy Suite",
@@ -157,7 +157,7 @@ export const soundtracks = [
         src: "/assets/audio/soundtracks/LittleFantasyFinale.mp3",
       },
     ],
-    image: "/assets/img/discography/LittleFantasySuite.webp",
+    image: "/assets/img/discography/rzmusic-little-fantasy-suite.webp",
   },
 ];
 
@@ -211,7 +211,7 @@ export const piano = [
         src: "/assets/audio/piano/11 - Topaz.mp3",
       },
     ],
-    image: "/assets/img/discography/TheBirthstones.webp",
+    image: "/assets/img/discography/rzmusic-the-birthstones.webp",
   },
   {
     title: "Contemplations",
@@ -243,7 +243,7 @@ export const piano = [
         src: "/assets/audio/piano/Contemplation Sphinxes.mp3",
       },
     ],
-    image: "/assets/img/discography/Contemplations.webp",
+    image: "/assets/img/discography/rzmusic-contemplations.webp",
   },
   {
     title: "Piano Mix",
@@ -301,7 +301,7 @@ export const piano = [
         src: "/assets/audio/piano/PolonaiseInBMajor.mp3",
       },
     ],
-    image: "/assets/img/discography/PianoMix.webp",
+    image: "/assets/img/discography/rzmusic-piano-mix.webp",
   },
 ];
 
@@ -323,7 +323,8 @@ export const ensemble = [
         src: "/assets/audio/ensemble/Concerto 3.mp3",
       },
     ],
-    image: "/assets/img/discography/ConcertoInC.webp",
+    image:
+      "/assets/img/discography/rzmusic-concerto-in-c-for-piano-and-orchestra.webp",
   },
   {
     title: "The High Cards",
@@ -346,7 +347,7 @@ export const ensemble = [
         src: "/assets/audio/ensemble/AceOfDiamonds.mp3",
       },
     ],
-    image: "/assets/img/discography/TheHighCards.webp",
+    image: "/assets/img/discography/rzmusic-the-high-cards.webp",
   },
   {
     title: "Macbeth Suite",
@@ -373,7 +374,7 @@ export const ensemble = [
         src: "/assets/audio/ensemble/Macbeth V.mp3",
       },
     ],
-    image: "/assets/img/discography/MacbethSuite.webp",
+    image: "/assets/img/discography/rzmusic-macbeth-suite.webp",
   },
   {
     title: "Suite of the Elements",
@@ -396,7 +397,7 @@ export const ensemble = [
         src: "/assets/audio/ensemble/4 - Fire.mp3",
       },
     ],
-    image: "/assets/img/discography/SuiteOfTheElements.webp",
+    image: "/assets/img/discography/rzmusic-suite-of-the-elements.webp",
   },
   {
     title: "Ensemble Mix",
@@ -458,6 +459,6 @@ export const ensemble = [
         src: "/assets/audio/ensemble/TaikoPhase.mp3",
       },
     ],
-    image: "/assets/img/discography/EnsembleMix.webp",
+    image: "/assets/img/discography/rzmusic-ensemble-mix.webp",
   },
 ];
