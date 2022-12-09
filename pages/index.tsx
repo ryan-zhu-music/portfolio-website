@@ -13,7 +13,7 @@ export default function Home() {
       <Head>
         <title>Ryan Zhu&apos;s Personal Site</title>
       </Head>
-      <main className="bg-[url('/assets/img/background.png')] bg-cover bg-top flex flex-col items-center justify-center">
+      <main className="bg-[url('/assets/img/background.webp')] bg-cover bg-top flex flex-col items-center justify-center">
         <Navbar />
         <Hero />
         <About />

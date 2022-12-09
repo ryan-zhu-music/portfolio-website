@@ -5,7 +5,7 @@ import Navbar from "../components/navbar";
 
 export default function Custom404() {
   return (
-    <div className="bg-[url('/assets/img/background.png')] bg-cover bg-top bg-no-repeat flex flex-col items-center justify-center w-screen h-screen">
+    <div className="bg-[url('/assets/img/background.webp')] bg-cover bg-top bg-no-repeat flex flex-col items-center justify-center w-screen h-screen">
       <Navbar />
       <h1 className="pl-3 text-6xl text-center font-elianto text-white tracking-[0.3em] drop-shadow-xl">
         500

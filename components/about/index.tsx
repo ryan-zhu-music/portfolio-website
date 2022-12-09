@@ -7,7 +7,7 @@ export default function About() {
       <div className="w-full flex flex-col md:flex-row mt-10">
         <div className="w-full md:w-1/3 px-10" data-aos="flip-right">
           <Image
-            src="/assets/img/profile.png"
+            src="/assets/img/profile.webp"
             alt="Ryan Zhu"
             width={300}
             height={300}

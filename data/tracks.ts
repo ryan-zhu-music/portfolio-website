@@ -12,7 +12,7 @@ export const spotlight = [
         src: "/assets/audio/soundtracks/Silvergreen.mp3",
       },
     ],
-    image: "/assets/img/discography/Soundtracks.png",
+    image: "/assets/img/discography/Soundtracks.webp",
   },
   {
     title: "Ensemble",
@@ -30,7 +30,7 @@ export const spotlight = [
         title: "Ace of Spades",
       },
     ],
-    image: "/assets/img/discography/Ensemble.png",
+    image: "/assets/img/discography/Ensemble.webp",
   },
   {
     title: "Piano",
@@ -50,7 +50,7 @@ export const spotlight = [
         src: "/assets/audio/piano/RachmaninoffFugue.mp3",
       },
     ],
-    image: "/assets/img/discography/Piano.png",
+    image: "/assets/img/discography/Piano.webp",
   },
 ];
 
@@ -84,7 +84,7 @@ export const soundtracks = [
         src: "/assets/audio/soundtracks/AncientAwakening.mp3",
       },
     ],
-    image: "/assets/img/discography/AncientFantasies.png",
+    image: "/assets/img/discography/AncientFantasies.webp",
   },
   {
     title: "Natura",
@@ -115,7 +115,7 @@ export const soundtracks = [
         src: "/assets/audio/soundtracks/AzureAscent.mp3",
       },
     ],
-    image: "/assets/img/discography/Natura.png",
+    image: "/assets/img/discography/Natura.webp",
   },
   {
     title: "Medieval Times",
@@ -138,7 +138,7 @@ export const soundtracks = [
         src: "/assets/audio/soundtracks/ArcaneAbyss.mp3",
       },
     ],
-    image: "/assets/img/discography/MedievalTimes.png",
+    image: "/assets/img/discography/MedievalTimes.webp",
   },
   {
     title: "Little Fantasy Suite",
@@ -157,7 +157,7 @@ export const soundtracks = [
         src: "/assets/audio/soundtracks/LittleFantasyFinale.mp3",
       },
     ],
-    image: "/assets/img/discography/LittleFantasySuite.png",
+    image: "/assets/img/discography/LittleFantasySuite.webp",
   },
 ];
 
@@ -211,7 +211,7 @@ export const piano = [
         src: "/assets/audio/piano/11 - Topaz.mp3",
       },
     ],
-    image: "/assets/img/discography/TheBirthstones.png",
+    image: "/assets/img/discography/TheBirthstones.webp",
   },
   {
     title: "Contemplations",
@@ -243,7 +243,7 @@ export const piano = [
         src: "/assets/audio/piano/Contemplation Sphinxes.mp3",
       },
     ],
-    image: "/assets/img/discography/Contemplations.png",
+    image: "/assets/img/discography/Contemplations.webp",
   },
   {
     title: "Piano Mix",
@@ -301,7 +301,7 @@ export const piano = [
         src: "/assets/audio/piano/PolonaiseInBMajor.mp3",
       },
     ],
-    image: "/assets/img/discography/PianoMix.png",
+    image: "/assets/img/discography/PianoMix.webp",
   },
 ];
 
@@ -323,7 +323,7 @@ export const ensemble = [
         src: "/assets/audio/ensemble/Concerto 3.mp3",
       },
     ],
-    image: "/assets/img/discography/ConcertoInC.png",
+    image: "/assets/img/discography/ConcertoInC.webp",
   },
   {
     title: "The High Cards",
@@ -346,7 +346,7 @@ export const ensemble = [
         src: "/assets/audio/ensemble/AceOfDiamonds.mp3",
       },
     ],
-    image: "/assets/img/discography/TheHighCards.png",
+    image: "/assets/img/discography/TheHighCards.webp",
   },
   {
     title: "Macbeth Suite",
@@ -373,7 +373,7 @@ export const ensemble = [
         src: "/assets/audio/ensemble/Macbeth V.mp3",
       },
     ],
-    image: "/assets/img/discography/MacbethSuite.png",
+    image: "/assets/img/discography/MacbethSuite.webp",
   },
   {
     title: "Suite of the Elements",
@@ -396,7 +396,7 @@ export const ensemble = [
         src: "/assets/audio/ensemble/4 - Fire.mp3",
       },
     ],
-    image: "/assets/img/discography/SuiteOfTheElements.png",
+    image: "/assets/img/discography/SuiteOfTheElements.webp",
   },
   {
     title: "Ensemble Mix",
@@ -458,6 +458,6 @@ export const ensemble = [
         src: "/assets/audio/ensemble/TaikoPhase.mp3",
       },
     ],
-    image: "/assets/img/discography/EnsembleMix.png",
+    image: "/assets/img/discography/EnsembleMix.webp",
   },
 ];

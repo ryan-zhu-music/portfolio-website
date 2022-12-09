@@ -8,7 +8,7 @@ export default function Document() {
           name="description"
           content="Learn more about contemporary musician and full-stack developer Ryan Zhu, and browse through Ryan's collection of music compositions and projects."
         />
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="author" content="Ryan Zhu" />
         <meta name="robots" content="index, nofollow" />
         <meta name="copyright" content="2022 Ryan Zhu" />

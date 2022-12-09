@@ -13,7 +13,7 @@ export default function Discography() {
       <Head>
         <title>RZMusic Discography</title>
       </Head>
-      <main className="bg-[url('/assets/img/background.png')] bg-cover bg-top flex flex-col items-center justify-center">
+      <main className="bg-[url('/assets/img/background.webp')] bg-cover bg-top flex flex-col items-center justify-center">
         <Navbar />
         <header className="w-screen h-screen flex flex-col items-center justify-center pt-16 px-5 md:px-20 lg:px-32">
           <h1 className="text-white tracking-[0.3em] md:tracking-[0.5em] drop-shadow-xl font-elianto uppercase text-2xl md:text-4xl lg:text-6xl pt-5">
