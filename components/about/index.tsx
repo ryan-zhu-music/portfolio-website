@@ -3,7 +3,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="w-screen pb-20 px-10 md:px-20 lg:px-48 bg-transparent rounded-2xl flex flex-col items-center justify-center">
+    <div className="w-screen pb-20 px-10 md:px-20 lg:px-48 bg-transparent flex flex-col items-center justify-center">
       <div className="w-full flex flex-col md:flex-row mt-10">
         <div className="w-full md:w-1/3 px-10" data-aos="flip-right">
           <Image
