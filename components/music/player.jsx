@@ -63,7 +63,7 @@ export default function Player({ tracks }) {
 
   return (
     <div className="w-full flex flex-col items-start jusitfy-center">
-      <h3 className="text-sm md:text-base lg:text-lg tracking-[0.2em] uppercase drop-shadow-lg text-white text-center md:text-start mt-3 md:mt-2 mb-1">
+      <h3 className="text-xs md:text-sm lg:text-base tracking-[0.2em] uppercase drop-shadow-lg text-white text-center md:text-start mt-3 md:mt-2 mb-1">
         {title}
       </h3>
       <div className={"w-full flex flex-row justify-between items-center"}>

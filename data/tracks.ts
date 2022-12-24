@@ -142,7 +142,7 @@ export const soundtracks = [
   },
   {
     title: "Little Fantasy Suite",
-    subtitle: "A programmatic suite inspired by VGM.",
+    subtitle: "A programmatic VGM suite.",
     tracks: [
       {
         title: "I - Prelude",
@@ -209,7 +209,7 @@ export const piano = [
       {
         title: "XI - Topaz",
         src: "/assets/audio/piano/11 - Topaz.mp3",
-      },  
+      },
       {
         title: "XII - Zircon",
         src: "/assets/audio/piano/12 - Zircon.mp3",

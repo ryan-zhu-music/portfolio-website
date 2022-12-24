@@ -19,13 +19,15 @@ export default function Navbar() {
       <div
         className={
           "z-20 absolute h-16 rounded-full gradient-mauve duration-1000 transition-all ease-in-out " +
-          (scrollPosition.y > 30 ? "opacity-100 w-2/3" : "opacity-0 w-5/6")
+          (scrollPosition.y > 30
+            ? "opacity-100 w-4/5 md:w-[70%]"
+            : "opacity-0 w-full md:w-5/6")
         }
       />
       <ul
         className={
-          "z-30 grid grid-cols-3 gap-3 transition-all duration-1000 ease-in-out " +
-          (scrollPosition.y > 30 ? "w-2/3" : "w-5/6")
+          "z-30 grid grid-cols-3 md:gap-3 transition-all duration-1000 ease-in-out " +
+          (scrollPosition.y > 30 ? "w-[70%]" : "w-5/6")
         }
       >
         {links.map((link) => (

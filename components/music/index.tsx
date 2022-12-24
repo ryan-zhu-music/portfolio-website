@@ -16,7 +16,7 @@ export default function Music() {
       <p
         className="text-base md:text-lg lg:text-xl drop-shadow-lg text-mauve my-2 font-normal text-center md:text-center"
         data-aos="fade-up"
-        data-aos-delay={200}
+        data-aos-delay={100}
       >
         Browse through my library of original compositions and arrangements,
         spanning various styles including Classicism, Romanticism,
@@ -27,7 +27,7 @@ export default function Music() {
         passHref
         className="mt-3 text-white font-elianto uppercase tracking-[0.3em] hover:tracking-[0.4em] text-xs md:text-sm ring-white ring-1 px-6 py-2 rounded-full font-semibold hover:shadow-sm hover:scale-105 duration-500 ease-in-out cursor-pointer"
         data-aos="zoom-in-up"
-        data-aos-delay={500}
+        data-aos-delay={200}
       >
         <p>Browse</p>
       </Link>
