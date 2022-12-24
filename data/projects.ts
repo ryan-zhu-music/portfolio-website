@@ -3,7 +3,7 @@ export const projects = [
     title: "YRHacks",
     type: "Hackathon",
     date: "Upcoming",
-    tech_stack: ["Next.js", "TailwindCSS", "TypeScript", "Mailchimp"],
+    tech_stack: ["Next.js", "TailwindCSS", "TypeScript"],
     description: [
       "A student-run hackathon for 300+ high school students across the York Region District School Board.",
       "As a logistics technology executive, I am responsible for the development of the website and Discord bot, as well as other organizational tasks.",
@@ -11,6 +11,20 @@ export const projects = [
     ],
     image: "/assets/img/projects/ryan-zhu-yrhacks.webp",
     url: "https://www.yrhacks.ca/",
+    prototype: false,
+  },
+  {
+    title: "MuseStats",
+    type: "Web App",
+    date: "December 2022",
+    tech_stack: ["Next.js", "TailwindCSS", "TypeScript"],
+    description: [
+      "Get detailed and organized statistics for any MuseScore page!",
+      "MuseStats uses requests and Next.js' API routes to return and parse the data into JSON.",
+      "Not affliated with MuseScore.",
+    ],
+    image: "/assets/img/projects/ryan-zhu-musestats.webp",
+    url: "https://musestats.vercel.app/",
     prototype: false,
   },
   {
