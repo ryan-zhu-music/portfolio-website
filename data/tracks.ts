@@ -137,6 +137,10 @@ export const soundtracks = [
         title: "Arcane Abyss",
         src: "/assets/audio/soundtracks/ArcaneAbyss.mp3",
       },
+      {
+        title: "Zenith",
+        src: "/assets/audio/soundtracks/Zenith.mp3",
+      },
     ],
     image: "/assets/img/discography/rzmusic-medieval-times.webp",
   },
@@ -325,6 +329,23 @@ export const ensemble = [
       {
         title: "III - Allegro",
         src: "/assets/audio/ensemble/Concerto 3.mp3",
+      },
+    ],
+    image:
+      "/assets/img/discography/rzmusic-concerto-in-c-for-piano-and-orchestra.webp",
+  },
+  {
+    title: "Concerto on a Theme of Paganini",
+    subtitle:
+      "A theme and variations on Caprice No. 24 for piano and orchestra.",
+    tracks: [
+      {
+        title: "I - Furioso",
+        src: "/assets/audio/ensemble/PaganiniConcerto1.mp3",
+      },
+      {
+        title: "II - Larghetto-Scherzando",
+        src: "/assets/audio/ensemble/PaganiniConcerto2.mp3",
       },
     ],
     image:
