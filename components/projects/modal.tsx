@@ -21,19 +21,19 @@ export default function Modal({ project, setOpen, projects, setProject }: any) {
         onClick={() => setOpen(false)}
       />
       <div
-        className={`w-[70%] md:w-3/5 h-[70%] flex gradient-mauve rounded-xl flex-col md:flex-row items-center justify-start cursor-default`}
+        className={`w-[70%] md:w-3/5 max-h-[85vh] flex gradient-mauve rounded-xl portrait:flex-col landscape:flex-row items-stretch justify-start cursor-default`}
       >
-        <div className="w-full md:w-2/5 h-40 md:h-full">
+        <div className="portrait:w-full landscape:w-2/5 portrait:h-48">
           <Image
             src={project.image}
             alt={project.title}
-            className="w-full h-[101%] object-cover rounded-tl-xl rounded-tr-xl md:rounded-tr-none md:rounded-bl-xl"
+            className="w-full h-[101%] object-cover portrait:rounded-tl-xl portrait:rounded-tr-xl landscape:rounded-tr-none landscape:rounded-bl-xl"
             width={1024}
             height={1024}
           />
         </div>
-        <div className="w-full md:w-3/5 h-3/4 md:h-full flex flex-col justify-start items-start pl-5 pr-5 md:pr-14 py-5 md:py-9">
-          <h2 className="text-white text-xl md:text-xl lg:text-3xl font-elianto tracking-[0.3em] uppercase">
+        <div className="portrait:w-full landscape:w-3/5 portrait:h-3/4 landscape:h-full flex flex-col justify-start items-start pl-5 pr-5 md:pr-14 py-5 md:py-9">
+          <h2 className="text-white text-base md:text-lg lg:text-2xl font-elianto tracking-[0.3em] uppercase">
             {project.title}
           </h2>
           <h3 className="font-montserrat italic font-bold mt-1 text-xs md:text-sm text-mauve">
@@ -42,13 +42,13 @@ export default function Modal({ project, setOpen, projects, setProject }: any) {
           <p className="font-montserrat text-xs md:text-sm lg:text-base my-2 text-mauve font-normal">
             {project.tech_stack.join(" • ")}
           </p>
-          <div className="overflow-y-scroll h-1/2 flex flex-col border-t-[1px] border-b-[1px] py-2 my-3 border-mauve">
+          <div className="overflow-y-scroll max-h-[22vh] flex flex-col border-t-[1px] border-b-[1px] py-2 my-3 border-mauve">
             {project.description.map(
               (paragraph: string, index: number) =>
                 paragraph && (
                   <p
                     key={index}
-                    className="w-full pr-5 font-montserrat text-xs md:text-sm lg:text-base text-white font-normal text-start mb-3"
+                    className="w-full pr-5 font-montserrat text-xs md:text-sm text-white font-normal text-start mb-3"
                   >
                     {paragraph}
                   </p>
