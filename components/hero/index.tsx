@@ -29,8 +29,6 @@ export default function Hero() {
           5000,
           "Avid Learner",
           5000,
-          "Supportive Mentor",
-          5000,
         ]}
         wrapper="h2"
         cursor={true}

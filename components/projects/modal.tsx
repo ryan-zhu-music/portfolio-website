@@ -37,7 +37,7 @@ export default function Modal({ project, setOpen, projects, setProject }: any) {
             {project.title}
           </h2>
           <h3 className="font-montserrat italic font-bold mt-1 text-xs md:text-sm text-mauve">
-            October 2022 -
+            {project.date}
           </h3>
           <p className="font-montserrat text-xs md:text-sm lg:text-base my-2 text-mauve font-normal">
             {project.tech_stack.join(" • ")}
