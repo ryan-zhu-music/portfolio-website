@@ -349,7 +349,7 @@ export const ensemble = [
       },
     ],
     image:
-      "/assets/img/discography/rzmusic-concerto-in-c-for-piano-and-orchestra.webp",
+      "/assets/img/discography/rzmusic-paganini-concerto.webp",
   },
   {
     title: "The High Cards",

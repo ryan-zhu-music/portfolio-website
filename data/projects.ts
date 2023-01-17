@@ -14,6 +14,19 @@ export const projects = [
     prototype: false,
   },
   {
+    title: "DownloadYT",
+    type: "Web App",
+    date: "January 2023",
+    tech_stack: ["Next.js", "TailwindCSS", "TypeScript"],
+    description: [
+      "Download any YouTube video in video (mp4) or audio (m4a) format instantly!",
+      "DownloadYT does not use external libraries such as FFmpeg or youtube-dl to actually download and convert videos. Instead, the video source is scraped and returned as a downloadable file, allowing for a reliable and fast download experience.",
+    ],
+    image: "/assets/img/projects/ryan-zhu-downloadyt.webp",
+    url: "https://downloadyt.vercel.app/",
+    prototype: false,
+  },
+  {
     title: "MuseStats",
     type: "Web App",
     date: "December 2022",
