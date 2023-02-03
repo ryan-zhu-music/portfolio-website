@@ -14,6 +14,20 @@ export const projects = [
     prototype: false,
   },
   {
+    title: "TA-API",
+    type: "API",
+    date: "February 2023",
+    tech_stack: ["Next.js", "TailwindCSS", "TypeScript"],
+    description: [
+      "An unofficial public API for retrieving data from official YRDSB teachassist accounts.",
+      "This API uses request-based scraping to retrieve and organize data from the official TeachAssist website, returning it in JSON format.",
+      "Used in the TeachAssist mobile app.",
+    ],
+    image: "/assets/img/projects/ryan-zhu-ta-api.webp",
+    url: "https://ta-api.vercel.app/",
+    prototype: false,
+  },
+  {
     title: "DownloadYT",
     type: "Web App",
     date: "January 2023",
