@@ -2,7 +2,8 @@ import React, { useState, useEffect, useRef } from "react";
 import Slider from "@mui/material/Slider";
 import { FaBackward, FaForward, FaPlay, FaPause } from "react-icons/fa";
 
-export default function Player({ tracks }) {
+export default function Player(props) {
+  const { tracks } = props;
   const [trackIndex, setTrackIndex] = useState(0);
   const [trackProgress, setTrackProgress] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
