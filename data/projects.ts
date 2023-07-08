@@ -2,12 +2,11 @@ export const projects = [
   {
     title: "YRHacks",
     type: "Hackathon",
-    date: "Upcoming",
+    date: "March 2023",
     tech_stack: ["Next.js", "TailwindCSS", "TypeScript"],
     description: [
       "A student-run hackathon for 300+ high school students across the York Region District School Board.",
       "As a logistics technology executive, I am responsible for the development of the website and Discord bot, as well as other organizational tasks.",
-      "Planning for the third iteration in 2023 is in progress!",
     ],
     image: "/assets/img/projects/ryan-zhu-yrhacks.webp",
     url: "https://www.yrhacks.ca/",

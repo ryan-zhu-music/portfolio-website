@@ -18,6 +18,7 @@ export default function Player({ tracks }) {
     setAudio(new Audio(src));
     setTrackProgress(0);
     setDuration(0);
+    setIsPlaying(false);
   }, [trackIndex]);
 
   useEffect(() => {

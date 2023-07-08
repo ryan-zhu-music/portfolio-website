@@ -15,9 +15,9 @@ export default function About() {
         </div>
         <div className="w-full md:w-2/3 lg:ml-10" data-aos="fade-up">
           <p className="text-base md:text-lg lg:text-xl drop-shadow-lg text-mauve mt-6 font-normal">
-            Hi, I{"'"}m Ryan! I am a Toronto high school student with a keen
-            interest in computer science. I enjoy building websites and
-            applications, and love learning new things!
+            Hi, I{"'"}m Ryan! I'm a post-secondary student with a keen interest
+            in computer science. I enjoy building websites and applications, and
+            love learning new things!
           </p>
           <p className="text-base md:text-lg lg:text-xl drop-shadow-lg text-mauve mt-6 font-normal">
             I also have a hobby in composing and music; I have experimented with

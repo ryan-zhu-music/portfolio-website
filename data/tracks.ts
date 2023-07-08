@@ -5,11 +5,11 @@ export const spotlight = [
     tracks: [
       {
         title: "Windward",
-        src: "/assets/audio/soundtracks/Windward.mp3",
+        src: "/assets/audio/soundtracks/natura/Windward.mp3",
       },
       {
         title: "Silvergreen",
-        src: "/assets/audio/soundtracks/Silvergreen.mp3",
+        src: "/assets/audio/soundtracks/medievaltimes/Silvergreen.mp3",
       },
     ],
     image: "/assets/img/discography/rzmusic-soundtracks.webp",
@@ -20,11 +20,11 @@ export const spotlight = [
     tracks: [
       {
         title: "Piano Concerto - III",
-        src: "/assets/audio/ensemble/Concerto 3.mp3",
+        src: "/assets/audio/ensemble/concerto/Concerto 3.mp3",
       },
       {
         title: "Rebirth",
-        src: "/assets/audio/ensemble/RebirthPrelude.mp3",
+        src: "/assets/audio/ensemble/medievaltimes/Rebirth.mp3",
       },
       {
         title: "Ace of Spades",
@@ -61,85 +61,85 @@ export const soundtracks = [
     tracks: [
       {
         title: "To The Lands Beyond",
-        src: "/assets/audio/soundtracks/ToTheLandsBeyond.mp3",
+        src: "/assets/audio/soundtracks/ancientfantasies/ToTheLandsBeyond.mp3",
       },
       {
         title: "Wonderland",
-        src: "/assets/audio/soundtracks/Wonderland.mp3",
+        src: "/assets/audio/soundtracks/ancientfantasies/Wonderland.mp3",
       },
       {
         title: "Sail",
-        src: "/assets/audio/soundtracks/Sail.mp3",
+        src: "/assets/audio/soundtracks/ancientfantasies/Sail.mp3",
       },
       {
         title: "Atlantis",
-        src: "/assets/audio/soundtracks/Atlantis.mp3",
+        src: "/assets/audio/soundtracks/ancientfantasies/Atlantis.mp3",
       },
       {
         title: "Fallen",
-        src: "/assets/audio/soundtracks/Fallen.mp3",
+        src: "/assets/audio/soundtracks/ancientfantasies/Fallen.mp3",
       },
       {
         title: "Ancient Awakening",
-        src: "/assets/audio/soundtracks/AncientAwakening.mp3",
+        src: "/assets/audio/soundtracks/ancientfantasies/AncientAwakening.mp3",
       },
     ],
     image: "/assets/img/discography/rzmusic-ancient-fantasies.webp",
   },
   {
     title: "Natura",
-    subtitle: "Encapsulating the wonder of mother nature.",
+    subtitle: "Experience the wonder of mother nature.",
     tracks: [
       {
         title: "Windward",
-        src: "/assets/audio/soundtracks/Windward.mp3",
+        src: "/assets/audio/soundtracks/nature/Windward.mp3",
       },
       {
         title: "The Mist of the Fjords",
-        src: "/assets/audio/soundtracks/TheMistOfTheFjords.mp3",
+        src: "/assets/audio/soundtracks/nature/TheMistOfTheFjords.mp3",
       },
       {
         title: "Amazon",
-        src: "/assets/audio/soundtracks/Amazon.mp3",
+        src: "/assets/audio/soundtracks/nature/Amazon.mp3",
       },
       {
         title: "Everest",
-        src: "/assets/audio/soundtracks/Everest.mp3",
+        src: "/assets/audio/soundtracks/nature/Everest.mp3",
       },
       {
         title: "Arctic Apricity",
-        src: "/assets/audio/soundtracks/ArcticApricity.mp3",
+        src: "/assets/audio/soundtracks/nature/ArcticApricity.mp3",
       },
       {
         title: "Azure Ascent",
-        src: "/assets/audio/soundtracks/AzureAscent.mp3",
+        src: "/assets/audio/soundtracks/nature/AzureAscent.mp3",
       },
     ],
     image: "/assets/img/discography/rzmusic-natura.webp",
   },
   {
     title: "Medieval Times",
-    subtitle: "Inspired by medieval scenes.",
+    subtitle: "Take a jump back in time to the medieval ages.",
     tracks: [
       {
         title: "First Light",
-        src: "/assets/audio/soundtracks/FirstLight.mp3",
+        src: "/assets/audio/soundtracks/medievaltimes/FirstLight.mp3",
       },
       {
         title: "Silvergreen",
-        src: "/assets/audio/soundtracks/Silvergreen.mp3",
+        src: "/assets/audio/soundtracks/medievaltimes/Silvergreen.mp3",
       },
       {
         title: "Rebirth",
-        src: "/assets/audio/soundtracks/RebirthPrelude.mp3",
+        src: "/assets/audio/soundtracks/medievaltimes/RebirthPrelude.mp3",
       },
       {
         title: "Arcane Abyss",
-        src: "/assets/audio/soundtracks/ArcaneAbyss.mp3",
+        src: "/assets/audio/soundtracks/medievaltimes/ArcaneAbyss.mp3",
       },
       {
         title: "Zenith",
-        src: "/assets/audio/soundtracks/Zenith.mp3",
+        src: "/assets/audio/soundtracks/medievaltimes/Zenith.mp3",
       },
     ],
     image: "/assets/img/discography/rzmusic-medieval-times.webp",
@@ -150,19 +150,43 @@ export const soundtracks = [
     tracks: [
       {
         title: "I - Prelude",
-        src: "/assets/audio/soundtracks/LittleFantasyPrelude.mp3",
+        src: "/assets/audio/soundtracks/littlefantasysuite/Prelude.mp3",
       },
       {
         title: "II - Waltz",
-        src: "/assets/audio/soundtracks/LittleFantasyWaltz.mp3",
+        src: "/assets/audio/soundtracks/littlefantasysuite/Waltz.mp3",
       },
       {
         title: "III - Finale",
-        src: "/assets/audio/soundtracks/LittleFantasyFinale.mp3",
+        src: "/assets/audio/soundtracks/littlefantasysuite/Finale.mp3",
       },
     ],
     image: "/assets/img/discography/rzmusic-little-fantasy-suite.webp",
   },
+  {
+    title: "Miscellaneous Soundtracks",
+    subtitle: "Singles and collabs.",
+    tracks: [
+      {
+        title: "Forest Dance (w/ IRELIN)",
+        src: "/assets/audio/soundtracks/ForestDance.mp3",
+
+      },
+      {
+        title: "Arcane Abyss",
+        src: "/assets/audio/soundtracks/ArcaneAbyss.mp3",
+      },
+      {
+        title: "Everest (w/ Aceplayer)",
+        src: "/assets/audio/soundtracks/Everest.mp3",
+      },
+      {
+        title: "Azure Ascent",
+        src: "/assets/audio/soundtracks/AzureAscent.mp3",
+      }
+    ],
+    image: "/assets/img/discography/rzmusic-soundtracks-misc.webp",
+  }
 ];
 
 export const piano = [
@@ -172,51 +196,59 @@ export const piano = [
     tracks: [
       {
         title: "I - Garnet",
-        src: "/assets/audio/piano/1 - Garnet.mp3",
+        src: "/assets/audio/piano/thebirthstones/Garnet.mp3",
       },
       {
         title: "II - Amethyst",
-        src: "/assets/audio/piano/2 - Amethyst.mp3",
+        src: "/assets/audio/piano/thebirthstones/Amethyst.mp3",
       },
       {
         title: "III - Aquamarine",
-        src: "/assets/audio/piano/3 - Aquamarine.mp3",
+        src: "/assets/audio/piano/thebirthstones/Aquamarine.mp3",
       },
       {
         title: "IV - Diamond",
-        src: "/assets/audio/piano/4 - Diamond.mp3",
+        src: "/assets/audio/piano/thebirthstones/Diamond.mp3",
       },
       {
         title: "V - Emerald",
-        src: "/assets/audio/piano/5 - Emerald.mp3",
+        src: "/assets/audio/piano/thebirthstones/Emerald.mp3",
       },
       {
         title: "VI - Pearl",
-        src: "/assets/audio/piano/6 - Pearl.mp3",
+        src: "/assets/audio/piano/thebirthstones/Pearl.mp3",
       },
       {
         title: "VII - Ruby",
-        src: "/assets/audio/piano/7 - Ruby.mp3",
+        src: "/assets/audio/piano/thebirthstones/Ruby.mp3",
       },
       {
         title: "VIII - Peridot",
-        src: "/assets/audio/piano/8 - Peridot.mp3",
+        src: "/assets/audio/piano/thebirthstones/Peridot.mp3",
       },
       {
         title: "IX - Sapphire",
-        src: "/assets/audio/piano/9 - Sapphire.mp3",
+        src: "/assets/audio/piano/thebirthstones/Sapphire.mp3",
       },
       {
         title: "X - Opal",
-        src: "/assets/audio/piano/10 - Opal.mp3",
+        src: "/assets/audio/piano/thebirthstones/Opal.mp3",
       },
       {
         title: "XI - Topaz",
-        src: "/assets/audio/piano/11 - Topaz.mp3",
+        src: "/assets/audio/piano/thebirthstones/Topaz.mp3",
       },
       {
         title: "XII - Zircon",
-        src: "/assets/audio/piano/12 - Zircon.mp3",
+        src: "/assets/audio/piano/thebirthstones/Zircon.mp3",
+      },
+      {
+        title: "Pearl - Remastered",
+        src: "/assets/audio/piano/thebirthstones/Pearl-Remastered.mp3",
+      },
+      {
+        title: "Topaz - Remastered by IRELIN",
+        src: "/assets/audio/piano/thebirthstones/Topaz-Remastered.mp3",
       },
     ],
     image: "/assets/img/discography/rzmusic-the-birthstones.webp",
@@ -227,28 +259,28 @@ export const piano = [
     tracks: [
       {
         title: "I",
-        src: "/assets/audio/piano/Contemplation 1.mp3",
+        src: "/assets/audio/piano/contemplations/Contemplation 1.mp3",
       },
       {
         title: "II",
-        src: "/assets/audio/piano/Contemplation 2.mp3",
+        src: "/assets/audio/piano/contemplations/Contemplation 2.mp3",
       },
       {
         title: "III",
-        src: "/assets/audio/piano/Contemplation 3.mp3",
+        src: "/assets/audio/piano/contemplations/Contemplation 3.mp3",
       },
       {
         title: "IV",
 
-        src: "/assets/audio/piano/Contemplation 4.mp3",
+        src: "/assets/audio/piano/contemplations/Contemplation 4.mp3",
       },
       {
         title: "V",
-        src: "/assets/audio/piano/Contemplation 5.mp3",
+        src: "/assets/audio/piano/contemplations/Contemplation 5.mp3",
       },
       {
         title: "Sphinxes",
-        src: "/assets/audio/piano/Contemplation Sphinxes.mp3",
+        src: "/assets/audio/piano/contemplations/Contemplation Sphinxes.mp3",
       },
     ],
     image: "/assets/img/discography/rzmusic-contemplations.webp",
@@ -320,15 +352,15 @@ export const ensemble = [
     tracks: [
       {
         title: "I - Allegro Moderato",
-        src: "/assets/audio/ensemble/Concerto 1.mp3",
+        src: "/assets/audio/ensemble/concerto/Concerto 1.mp3",
       },
       {
         title: "II - Andante",
-        src: "/assets/audio/ensemble/Concerto 2.mp3",
+        src: "/assets/audio/ensemble/concerto/Concerto 2.mp3",
       },
       {
         title: "III - Allegro",
-        src: "/assets/audio/ensemble/Concerto 3.mp3",
+        src: "/assets/audio/ensemble/concerto/Concerto 3.mp3",
       },
     ],
     image:
@@ -337,19 +369,38 @@ export const ensemble = [
   {
     title: "Concerto on a Theme of Paganini",
     subtitle:
-      "A theme and variations on Caprice No. 24 for piano and orchestra.",
+      "A theme and variations on Caprice No. 24 for piano and orchestra w/ F.Biddix.",
     tracks: [
       {
         title: "I - Furioso",
-        src: "/assets/audio/ensemble/PaganiniConcerto1.mp3",
+        src: "/assets/audio/ensemble/paganiniconcerto/PaganiniConcerto1.mp3",
       },
       {
         title: "II - Larghetto-Scherzando",
-        src: "/assets/audio/ensemble/PaganiniConcerto2.mp3",
+        src: "/assets/audio/ensemble/paganiniconcerto/PaganiniConcerto2.mp3",
       },
     ],
     image:
       "/assets/img/discography/rzmusic-paganini-concerto.webp",
+  },
+  {
+    title: "a bittersweet album",
+    subtitle: "A collection of short melancholic and reflective symphonic works.",
+    tracks: [
+      {
+        title: "Cherry",
+        src: "/assets/audio/ensemble/abittersweetalbum/Cherry.mp3",
+      },
+      {
+        title: "Mourning Doves",
+        src: "/assets/audio/ensemble/abittersweetalbum/Mourning Doves.mp3",
+      },
+      {
+        title: "Symphonic Fragment",
+        src: "/assets/audio/ensemble/abittersweetalbum/Symphonic Fragment.mp3",
+      },
+    ],
+    image: "/assets/img/discography/rzmusic-a-bittersweet-album.webp",
   },
   {
     title: "The High Cards",
@@ -357,19 +408,19 @@ export const ensemble = [
     tracks: [
       {
         title: "I - Ace of Spades",
-        src: "/assets/audio/ensemble/AceOfSpades.mp3",
+        src: "/assets/audio/ensemble/thehighcards/AceOfSpades.mp3",
       },
       {
         title: "II - Ace of Hearts",
-        src: "/assets/audio/ensemble/AceOfHearts.mp3",
+        src: "/assets/audio/ensemble/thehighcards/AceOfHearts.mp3",
       },
       {
         title: "III - Ace of Clubs",
-        src: "/assets/audio/ensemble/AceOfClubs.mp3",
+        src: "/assets/audio/ensemble/thehighcards/AceOfClubs.mp3",
       },
       {
         title: "IV - Ace of Diamonds",
-        src: "/assets/audio/ensemble/AceOfDiamonds.mp3",
+        src: "/assets/audio/ensemble/thehighcards/AceOfDiamonds.mp3",
       },
     ],
     image: "/assets/img/discography/rzmusic-the-high-cards.webp",
@@ -380,23 +431,23 @@ export const ensemble = [
     tracks: [
       {
         title: "I - Prophecies",
-        src: "/assets/audio/ensemble/Macbeth I.mp3",
+        src: "/assets/audio/ensemble/macbeth/Macbeth I.mp3",
       },
       {
         title: "II - Murder",
-        src: "/assets/audio/ensemble/Macbeth II.mp3",
+        src: "/assets/audio/ensemble/macbeth/Macbeth II.mp3",
       },
       {
         title: "III - Betrayal",
-        src: "/assets/audio/ensemble/Macbeth III.mp3",
+        src: "/assets/audio/ensemble/macbeth/Macbeth III.mp3",
       },
       {
         title: "IV - Tyrant",
-        src: "/assets/audio/ensemble/Macbeth IV.mp3",
+        src: "/assets/audio/ensemble/macbeth/Macbeth IV.mp3",
       },
       {
         title: "V - Finale",
-        src: "/assets/audio/ensemble/Macbeth V.mp3",
+        src: "/assets/audio/ensemble/macbeth/Macbeth V.mp3",
       },
     ],
     image: "/assets/img/discography/rzmusic-macbeth-suite.webp",
@@ -407,19 +458,19 @@ export const ensemble = [
     tracks: [
       {
         title: "I - Water",
-        src: "/assets/audio/ensemble/1 - Water.mp3",
+        src: "/assets/audio/ensemble/suiteoftheelements/1 - Water.mp3",
       },
       {
         title: "II - Air",
-        src: "/assets/audio/ensemble/2 - Air.mp3",
+        src: "/assets/audio/ensemble/suiteoftheelements/2 - Air.mp3",
       },
       {
         title: "III - Earth",
-        src: "/assets/audio/ensemble/3 - Earth.mp3",
+        src: "/assets/audio/ensemble/suiteoftheelements/3 - Earth.mp3",
       },
       {
         title: "IV - Fire",
-        src: "/assets/audio/ensemble/4 - Fire.mp3",
+        src: "/assets/audio/ensemble/suiteoftheelements/4 - Fire.mp3",
       },
     ],
     image: "/assets/img/discography/rzmusic-suite-of-the-elements.webp",
