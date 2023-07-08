@@ -77,7 +77,7 @@ export default function Contact() {
         <p
           className="text-white font-montserrat tracking-[0.05em] text-sm md:text-base my-5 font-normal pr-8"
           data-aos="fade-right"
-          date-aos-delay={200}
+          data-aos-delay={200}
         >
           Let&apos;s get in touch! Fill out the form, and I&apos;ll get back to
           you!
@@ -85,7 +85,7 @@ export default function Contact() {
         <p
           className="text-white font-montserrat tracking-[0.05em] text-sm md:text-base font-normal"
           data-aos="fade-right"
-          date-aos-delay={400}
+          data-aos-delay={400}
         >
           Feel free to contact me about anything!
         </p>
@@ -94,7 +94,7 @@ export default function Contact() {
             href="mailto:rz.ryanzhu@gmail.com"
             className="text-white font-montserrat tracking-[0.05em] text-sm md:text-base my-3 font-normal"
             data-aos="fade-right"
-            date-aos-delay={800}
+            data-aos-delay={800}
           >
             <FaEnvelope className="inline-block mr-4" />
             rz.ryanzhu@gmail.com
@@ -102,7 +102,7 @@ export default function Contact() {
           <div
             className="text-white font-montserrat tracking-[0.05em] text-sm md:text-base font-normal"
             data-aos="fade-right"
-            date-aos-delay={900}
+            data-aos-delay={900}
           >
             <FaPhoneAlt className="inline-block mr-4" />
             (437) 776-1039
