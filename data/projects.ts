@@ -1,12 +1,25 @@
 export const projects = [
   {
+    title: "MuseLab",
+    type: "Hackathon",
+    date: "March 2023",
+    tech_stack: ["Next.js", "TailwindCSS", "Spring Boot"],
+    description: [
+      "A Spring Boot plugin and for the popular music notation software MuseScore, enabling users to collaborate with each other in real time and manage projects with ease.",
+      "Features can be used through the MuseScore desktop app with the plugin installed, as well as through the web app.",
+    ],
+    image: "/assets/img/projects/ryan-zhu-muselab.webp",
+    url: "https://www.muselab.app/",
+    prototype: false,
+  },
+  {
     title: "YRHacks",
     type: "Hackathon",
     date: "March 2023",
     tech_stack: ["Next.js", "TailwindCSS", "TypeScript"],
     description: [
       "A student-run hackathon for 300+ high school students across the York Region District School Board.",
-      "As a logistics technology executive, I am responsible for the development of the website and Discord bot, as well as other organizational tasks.",
+      "As a logistics technology executive, I was responsible for the development of the website and Discord bot, as well as other organizational tasks.",
     ],
     image: "/assets/img/projects/ryan-zhu-yrhacks.webp",
     url: "https://www.yrhacks.ca/",
