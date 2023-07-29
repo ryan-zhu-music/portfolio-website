@@ -1,8 +1,8 @@
 export const projects = [
   {
     title: "MuseLab",
-    type: "Hackathon",
-    date: "March 2023",
+    type: "Plugin & Web App",
+    date: "July 2023",
     tech_stack: ["Next.js", "TailwindCSS", "Spring Boot"],
     description: [
       "A Spring Boot plugin and for the popular music notation software MuseScore, enabling users to collaborate with each other in real time and manage projects with ease.",
