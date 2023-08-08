@@ -170,7 +170,6 @@ export const soundtracks = [
       {
         title: "Forest Dance (w/ IRELIN)",
         src: "/assets/audio/soundtracks/ForestDance.mp3",
-
       },
       {
         title: "Arcane Abyss",
@@ -183,10 +182,10 @@ export const soundtracks = [
       {
         title: "Azure Ascent",
         src: "/assets/audio/soundtracks/AzureAscent.mp3",
-      }
+      },
     ],
     image: "/assets/img/discography/rzmusic-soundtracks-misc.webp",
-  }
+  },
 ];
 
 export const piano = [
@@ -380,12 +379,12 @@ export const ensemble = [
         src: "/assets/audio/ensemble/paganiniconcerto/PaganiniConcerto2.mp3",
       },
     ],
-    image:
-      "/assets/img/discography/rzmusic-paganini-concerto.webp",
+    image: "/assets/img/discography/rzmusic-paganini-concerto.webp",
   },
   {
     title: "a bittersweet album",
-    subtitle: "A collection of short melancholic and reflective symphonic works.",
+    subtitle:
+      "A collection of short melancholic and reflective symphonic works.",
     tracks: [
       {
         title: "Cherry",
@@ -398,6 +397,10 @@ export const ensemble = [
       {
         title: "Symphonic Fragment",
         src: "/assets/audio/ensemble/abittersweetalbum/Symphonic Fragment.mp3",
+      },
+      {
+        title: "Rails of Time",
+        src: "/assets/audio/ensemble/abittersweetalbum/Rails of Time.mp3",
       },
     ],
     image: "/assets/img/discography/rzmusic-a-bittersweet-album.webp",
