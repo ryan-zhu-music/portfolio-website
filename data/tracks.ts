@@ -402,6 +402,14 @@ export const ensemble = [
         title: "Rails of Time",
         src: "/assets/audio/ensemble/abittersweetalbum/Rails of Time.mp3",
       },
+      {
+        title: "Swing",
+        src: "/assets/audio/ensemble/abittersweetalbum/Swing.mp3",
+      },
+      {
+        title: "Ceremony",
+        src: "/assets/audio/ensemble/abittersweetalbum/Ceremony.mp3",
+      },
     ],
     image: "/assets/img/discography/rzmusic-a-bittersweet-album.webp",
   },
