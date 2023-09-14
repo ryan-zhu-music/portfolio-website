@@ -172,6 +172,10 @@ export const soundtracks = [
         src: "/assets/audio/soundtracks/ForestDance.mp3",
       },
       {
+        title: "Stratagem",
+        src: "/assets/audio/soundtracks/Stratagem.mp3",
+      },
+      {
         title: "Arcane Abyss",
         src: "/assets/audio/soundtracks/ArcaneAbyss.mp3",
       },
