@@ -60,7 +60,7 @@ export default function Modal({ project, setOpen, projects, setProject }: any) {
               href={project.url}
               target="_blank"
               rel="noreferrer noopener"
-              className="justify-self-end text-white font-elianto uppercase tracking-[0.3em] hover:tracking-[0.4em] text-xs md:text-sm ring-white ring-1 px-6 py-2 rounded-full font-semibold hover:shadow-md duration-300 ease-in-out cursor-pointer"
+              className="justify-self-end text-white font-elianto uppercase tracking-[0.3em] hover:tracking-[0.4em] text-xs md:text-sm ring-white ring-1 px-6 py-2 rounded-full font-semibold hover-glow duration-300 ease-in-out cursor-pointer"
             >
               {project.prototype ? "Prototype" : "Visit"}
             </a>

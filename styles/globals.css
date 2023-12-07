@@ -139,3 +139,7 @@ button:focus {
     opacity: 1;
   }
 }
+
+.hover-glow:hover {
+  box-shadow: 0 0 10px 2px #ffffff40;
+}

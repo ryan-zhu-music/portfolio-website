@@ -74,16 +74,20 @@ export default function Discography() {
               </li>
             ))}
           </ul>
-          <a
+          <div
             data-aos="fade-up"
             data-aos-delay={800}
-            href="https://musescore.com/user/34214067"
-            target="_blank"
-            rel="noreferrer noopener"
-            className="text-white font-elianto uppercase tracking-[0.3em] hover:tracking-[0.4em] text-base md:text-lg gradient-mauve px-7 py-4 mt-5 rounded-full font-semibold hover:shadow-sm hover:scale-[102%] duration-500 ease-in-out"
+            className="w-fit h-fit mt-5"
           >
-            Sheet Music
-          </a>
+            <a
+              href="https://musescore.com/user/34214067"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="text-white font-elianto uppercase tracking-[0.3em] hover:tracking-[0.4em] text-base md:text-lg gradient-mauve px-8 py-4 rounded-full font-semibold hover-glow hover:scale-[102%] duration-300 transition-all ease-in-out"
+            >
+              Sheet Music
+            </a>
+          </div>
         </header>
         <div className="w-screen px-10 md:px-20 lg:px-48 pt-10 pb-32">
           <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-10">

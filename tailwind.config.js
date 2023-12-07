@@ -11,11 +11,11 @@ module.exports = {
       none: "none",
     },
     boxShadow: {
-      DEFAULT: "0 0 20px 5px rgba(0,0,0,0.7)",
-      sm: "0 0 20px 5px rgba(0,0,0,0.7)",
-      md: "0 0 20px 5px rgba(0,0,0,0.7)",
-      lg: "0 0 30px 7px rgba(0,0,0,0.8)",
-      xl: "0 0 40px 10px rgba(0,0,0,0.9)",
+      DEFAULT: "0 0 20px 5px rgba(0,0,0,0.5)",
+      sm: "0 0 30px 5px rgba(0,0,0,0.6)",
+      md: "0 0 40px 5px rgba(0,0,0,0.6)",
+      lg: "0 0 40px 7px rgba(0,0,0,0.7)",
+      xl: "0 0 50px 10px rgba(0,0,0,0.8)",
       none: "none",
     },
     extend: {
